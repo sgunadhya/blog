@@ -2,8 +2,8 @@
 ##
 # This section should match your Makefile
 ##
-PY=/Users/susrivas/code/blog/bin/python
-PELICAN=/Users/susrivas/code/blog/bin/pelican
+PY=$(pwd)/bin/python
+PELICAN=$(pwd)/bin/pelican
 PELICANOPTS=
 
 BASEDIR=$(pwd)
