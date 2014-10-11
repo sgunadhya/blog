@@ -1,0 +1,9 @@
+*.pyc
+output/
+bin/
+.installed.cfg
+cache/
+downloads/
+eggs/
+*.pid
+
