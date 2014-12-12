@@ -1,0 +1,64 @@
+
+* Feedback or Unit Testing for Machine learning applications
+  
+** Unstable data (Seam testing)				       :oreilly_book:
+
+** Underfitting (Cross-validation)
+
+** Overfitting (Benchmark testing)  :Thoughful_machine_learning_oreilly_book:
+   
+** Unpredictable future (Precision/Recall tracking over time)
+
+* Security OpenHouse (Akamai 10th December 2014)
+
+** Akamai Intelligent Platform (Starbucks of the Network)
+
+** DDOS Attack
+
+*** Layer 4 attacks
+
+** Web Application Firewall
+
+*** Layer 7 security
+    
+*** SQL injection etc
+    
+**** Site Shield
+
+**** Scrubbing centers by Prolexic (through BGP messages)
+     
+** DNS Service
+
+*** FastDNS
+
+
+** CSI (Cloud Security Intelligence)
+
+*** Application Reputation
+
+*** Proactive Information
+
+**** Botnet Detection
+
+* History of Analysis blog post
+
+** Topological Space
+
+*** general framework
+
+*** notion of continuity
+
+*** 20th century notion (Hausdorff)
+
+*** Point set topology (Cantor's infinite sets)
+
+*** Neighbourhood system
+
+
+
+
+
+
+
+
+
