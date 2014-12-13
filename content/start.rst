@@ -1,9 +1,11 @@
-My super title
+New Blog
 ##############
 
-:date: 2010-10-03 10:20
+:date: 12 October 2014
 :tags: thats, awesome
-:category: yeah
-:slug: my-super-post
-:author: Alexis Metaireau
+:category: Python
+:slug: new-blog
+:author: Sushant Srivastava
 :summary: Short version for index and feeds
+
+This is my new blog. 

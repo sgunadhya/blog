@@ -54,6 +54,8 @@
 
 *** Neighbourhood system
 
+**** Three conditions for neighborhood of X
+
 
 
 
