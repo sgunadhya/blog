@@ -56,6 +56,23 @@
 
 **** Three conditions for neighborhood of X
 
+* Review Papers guidelines
+
+** What is your take-away message from this paper?
+
+** What is the motivation for this work? Why are the previous solutions inadequate?
+
+** What logic, argument, evidence, artifacts (e.g., a proof-of-concept system), or experiments are presented in support of the idea?
+
+** What is your analysis of the identified problem, idea and evaluation? Is this a good idea? What flaws do you perceive in the work? What are the most interesting or controversial ideas? For work that has practical implications, ask whether this will work, who would want it, what it will take to give it to them, and when might it become a reality?
+
+** What are the paper’s contributions (author’s and your opinion)? Ideas, methods, software, experimental results, experimental
+
+** What are future directions for this research (author’s and yours, perhaps driven by shortcomings or other critiques)?
+
+** What questions are you left with? What questions would you like to raise in an open discussion of the work (review interesting and controversial points, above)? What do you find difficult to understand? List as many as you can)
+
+
 
 
 
