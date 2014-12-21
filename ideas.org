@@ -72,6 +72,15 @@
 
 ** What questions are you left with? What questions would you like to raise in an open discussion of the work (review interesting and controversial points, above)? What do you find difficult to understand? List as many as you can)
 
+* A/B testing tools
+
+** Planout from Facebook
+
+** Sixpack
+
+** Petri
+
+
 
 
 
