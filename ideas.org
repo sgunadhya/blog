@@ -80,6 +80,19 @@
 
 ** Petri
 
+*** 
+
+* Testing machine learning
+** Seam testing input and output data
+*** Testing input and Output data
+** Underfitting vs Overfitting
+** Precision vs Recall
+** References
+
+*** http://blog.mpacula.com/2011/02/17/unit-testing-statistical-software/
+* Data Sources
+** https://www.proteomicsdb.org
+** http://littlesis.org
 
 
 
