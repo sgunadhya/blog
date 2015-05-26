@@ -1,0 +1,40 @@
+: title: Test Driven Development for Machine Learning projects
+: date: 29 December 2014
+: tags: machine learning
+: category: machine learning
+: slug: tdd-machine-learning
+: author: Sushant Srivastava
+: summary: Seam testing, cross validation and graphing precision/recall are the TDD equivalents for a machine learning project.
+
+I use Test Driven Development (TDD) when developing a new software. TDD is a useful technique for validating assumptions and refactoring the code. I was wondering what TDD paradigm would work best for a Machine Learning project. I readup on the subject and I am jotting down my findings from various sources - books, Quora answers and simple browsing.
+
+Testing Input and Output data
+==============================
+
+Many Machine learning algorithms expect input data in a particular format, and produce data in a specific format.
+We can test if the input and the output data conform to these formats. 
+`Scikit-Learn`_ provides `helper methods for validating input data`_.
+
+
+Cross Validation
+=================
+
+Two risks with machine learning models are - `Overfitting`_ and `Underfitting`_. The Overfitting problems happens when when the model fits the data very tightly whereas Underfitting happens when we don't use enough data while coming up with a machine learning model.
+
+Cross-validation is a method of splitting all of your data into two parts: training and validation. The training data is used to build the machine learning model, whereas the validation data is used to validate that the model is doing what is expected. Scikit-learn provides helper methods for `cross validation`_.
+
+Precision and Recall
+====================
+
+`Precision and Recall`_ are good metrics for monitoring how effective the machine learning implementation is.
+Precision is the total percentage of true positives in our training data. Recall is the ratio of true positives to true positive plus false negatives.
+
+
+
+.. _`Scikit-Learn`: http://scikit-learn.org/stable/
+.. _`Overfitting`: https://www.quora.com/What-is-an-intuitive-explanation-of-overfitting
+.. _`Underfitting`: http://datascience.stackexchange.com/questions/361/when-is-a-model-underfitted
+.. _`cross validation`: http://scikit-learn.org/stable/modules/cross_validation.html
+.. _`helper methods for validating input data`: https://github.com/scikit-learn/scikit-learn/blob/master/sklearn/utils/validation.py
+.. _`Precision and Recall`: http://scikit-learn.org/stable/auto_examples/plot_precision_recall.html
+
