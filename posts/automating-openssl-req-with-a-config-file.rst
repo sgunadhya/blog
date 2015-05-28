@@ -1,7 +1,7 @@
 .. title: Automating openssl req with a config file
 .. slug: automating-openssl-req-with-a-config-file
 .. date: 2015-05-26 08:14:10 UTC+05:30
-.. tags: openssl, automation
+.. tags: openssl, automation, pki
 .. category: automation
 .. link: 
 .. description: Automate openssl req using a config file
