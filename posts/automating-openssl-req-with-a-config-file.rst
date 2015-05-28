@@ -35,7 +35,7 @@ To automate this, you can create a INI-style config file ``csr.conf`` like so:
   distinguished_name = req_distinguished_name
 
   [req_distinguished_name]
-  countryName = Country Name (2 letter coe)
+  countryName = Country Name (2 letter code)
   countryName_default = IN
   stateOrProvineName_default = KA
   organizationName_default = Orom
