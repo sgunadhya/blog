@@ -28,6 +28,12 @@ Here's a brief summary with links to the original blog posts
 5. `Validation and offline Testing`_
    She throws light on Boostrapping, Jack-knifing resampling techniques for Validation Testing.
 
+6. `Online A/B Testing`_
+   She throws light on the basics of A/B testing and its pitfalls.
+   
+
+   
+
 .. _`previous post`: tdd-machine-learning.html
 .. _`Dato Blog`: http://blog.dato.com/
 
@@ -36,3 +42,4 @@ Here's a brief summary with links to the original blog posts
 .. _`Ranking and Regression Metrics`: http://blog.dato.com/how-to-evaluate-machine-learning-models-part-2b-ranking-and-regression-metrics
 .. _`Hyperparameter Tuning`: http://blog.dato.com/how-to-evaluate-ml-models-part-3-validation-and-offline-testing
 .. _`Validation and offline Testing`: http://blog.dato.com/how-to-evaluate-ml-models-part-3-validation-and-offline-testing
+.. _`Online A/B Testing`: http://blog.dato.com/how-to-evaluate-machine-learning-models-the-pitfalls-of-ab-testing
