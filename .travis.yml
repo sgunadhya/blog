@@ -1,0 +1,7 @@
+language: python
+python:
+  - "3.2"
+
+install:
+  - sudo apt-get install s3cmd
+  - python bootstrap.py && ./bin/buildout
