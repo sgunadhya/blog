@@ -4,3 +4,6 @@ python:
 
 install:
   - python bootstrap.py && ./bin/buildout
+
+script:
+  - ./bin/s3cmd
