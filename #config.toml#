@@ -1,0 +1,28 @@
+baseurl = "http://ssushant.in/"
+languageCode = "en-us"
+title = "Random tech excursions"
+theme = "hugo-bootstrap"
+
+paginate = 10
+paginatePath = "page"
+
+disqusShortname = "oromin"
+
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+    code = "/:slug/"
+
+[taxonomies]
+    tag = "tags"
+    topic = "topics"
+
+[author]
+    name = "Sushant Srivastava"
+
+[params]
+    twitter = "ssushant"
+
+
+	
+
