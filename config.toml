@@ -22,5 +22,7 @@ disqusShortname = "oromin"
 
 [params]
     twitter = "ssushant"
+    googleAnalytics = "UA-62976890-1"
+    highlight = "default"
 	
 
