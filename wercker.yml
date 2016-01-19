@@ -34,4 +34,5 @@ deploy:
         key-id: $AWS_ACCESS_KEY_ID
         key-secret: $AWS_SECRET_ACCESS_KEY
         bucket-url: $AWS_BUCKET_URL
+        source-dir: public/
 
