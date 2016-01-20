@@ -1,7 +1,6 @@
 +++
 date = "2016-01-19T20:39:41+05:30"
 description = "Useful Information Architecture Books"
-draft = true
 keywords = ["information architecture"]
 tags = ["information architecture"]
 title = "Useful Information Architecture Books"
