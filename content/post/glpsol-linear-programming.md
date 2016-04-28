@@ -4,7 +4,7 @@ date = "2016-04-28T15:14:33+05:30"
 description = "Using GLPK to solve knapsack and related problems"
 draft = false
 keywords = ["glpsol", "glpk"]
-tags = ["linear programming", "optimizatioin"]
+tags = ["linear programming", "optimization"]
 title = "Using GLPK to solve knapsack and related problems"
 topics = ["Linear Programming"]
 type = "post"
@@ -52,7 +52,7 @@ end;
 
 We can solve the Knapsack problem like so:
 
-```
+```shell
 glpsol --model knapsack.mod --data knapsack.dat -o result
 ```
 
