@@ -2,7 +2,7 @@
 author = "Sushant Srivastava"
 date = "2016-04-28T15:14:33+05:30"
 description = "Using GLPK to solve knapsack and related problems"
-draft = true
+draft = false
 keywords = ["glpsol", "glpk"]
 tags = ["linear programming", "optimizatioin"]
 title = "Using GLPK to solve knapsack and related problems"
