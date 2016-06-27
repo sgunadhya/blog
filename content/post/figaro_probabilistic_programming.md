@@ -5,7 +5,7 @@ description = "Using Figaro for Probabilistic Modeling"
 draft = false
 keywords = ["machine learning", "Probabilistic"]
 tags = ["machine learning", "Probabilistic"]
-title = "figaro_probabilistic_programming"
+title = "Using Figaro for Probabilistic Modeling"
 topics = ["machine learning"]
 type = "post"
 
