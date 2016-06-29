@@ -5,7 +5,7 @@ description = "Where are the include and link directories for packages installed
 draft = false
 keywords = ["cmake", "homebrew"]
 tags = ["TIL", "build"]
-title = "homebrew_cmake_include_link_files"
+title = "Where are the include and link directories for packages installed through Homebrew"
 topics = ["homebrew", "cmake"]
 type = "post"
 
