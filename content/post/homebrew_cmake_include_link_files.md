@@ -11,14 +11,15 @@ type = "post"
 
 +++
 
-I was trying to build a project which had dependencies of [`gflags`](https://github.com/gflags/gflags) and `glog` and used [`cmake`](https://cmake.org/) as the build tools.
+I was trying to build a project which had dependencies of [`gflags`](https://github.com/gflags/gflags) and [`glog`](https://github.com/google/glog) and used [`cmake`](https://cmake.org/) as the build tool.
 
 I was using [Homebrew](http://brew.sh/) on MacOSX, so I went ahead and installed the dependencies like so:
 
-``shell
+```shell
 brew install glog
 brew install gflag
-``
+```
+
 Now, I wanted to add include path and link path for these libs in the project.
 My first shot was to add a `CXXFLAGS` variable and expected that `cmake` would pick it up.
 
@@ -31,7 +32,7 @@ Next, I added the dependency manually in the `CMakeLists.txt` file using the `in
 
 ```cmake
 include_directories(/usr/local/Cellar/glog/0.3.4/include)
-include_directories(/usr/local/Cellar/gflags/2.1.2/include/)
+include_directories(/usr/local/Cellar/gflags/2.1.2/include)
 link_directories(/usr/local/Cellar/glog/0.3.4/lib)
 link_directories(/usr/local/Cellar/gflags/2.1.2/lib)
 ```
@@ -44,4 +45,4 @@ include_directories(/usr/local/include)
 link_directories(/usr/local/lib)
 ```
 
-This works. I am of the opinion that we can do better, but as of now I am okay with this.
+This works! I am of the opinion that we can do better, but as of now I am okay with this.
