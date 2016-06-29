@@ -1,13 +1,12 @@
 baseurl = "http://ssushant.in/"
 languageCode = "en-us"
 title = "Random tech excursions"
-theme = "hugo-bootstrap"
+theme = "simple-hugo"
 
 paginate = 10
 paginatePath = "page"
 
 disqusShortname = "oromin"
-
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -24,5 +23,6 @@ disqusShortname = "oromin"
     twitter = "ssushant"
     googleAnalytics = "UA-62976890-1"
     highlight = "default"
+	github = "mitra-varuna"
 	
 
