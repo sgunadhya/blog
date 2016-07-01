@@ -6,4 +6,5 @@ cache/
 downloads/
 eggs/
 *.pid
+public/
 

@@ -1,7 +1,7 @@
 baseurl = "http://ssushant.in/"
 languageCode = "en-us"
 title = "Random tech excursions"
-theme = "simple-hugo"
+theme = "internet-weblog"
 
 paginate = 10
 paginatePath = "page"
@@ -18,11 +18,32 @@ disqusShortname = "oromin"
 
 [author]
     name = "Sushant Srivastava"
+	Handle = "ssushant"
+	FirstName = "Sushant"
+	LastName = "Srivastava"
+	Location = "Bangalore, India"
+	FlickrID = "26172158@N00"
 
 [params]
     twitter = "ssushant"
     googleAnalytics = "UA-62976890-1"
     highlight = "default"
 	github = "mitra-varuna"
+	RSSEnabled = true
+    RSSSections = [ "Posts" ]
+
+
+[[menu.main]]
+  name = "Posts"
+  weight = 1
+    identifier = "posts"
+  url = "/posts/"
+
+[[menu.main]]
+    name = "Tags"
+    weight = 2
+    identifier = "tags"
+    url = "/tags/"
+
 	
 
