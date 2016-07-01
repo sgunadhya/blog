@@ -25,7 +25,7 @@ build:
         packages: python-docutils
 
     - arjen/hugo-build@1.8.1:
-        theme: internet-weblog
+        theme: hugo-bootstrap
 
 deploy:
   steps:

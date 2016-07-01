@@ -1,7 +1,7 @@
 baseurl = "http://ssushant.in/"
 languageCode = "en-us"
 title = "Random tech excursions"
-theme = "internet-weblog"
+theme = "hugo-bootstrap"
 
 paginate = 10
 paginatePath = "page"
