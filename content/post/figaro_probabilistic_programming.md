@@ -18,9 +18,9 @@ came across [Figaro](https://www.cra.com/work/case-studies/figaro). Figaro is a 
 Suppose you want to model the roll of a six sided die. In probability problems, it is usually modeled as a [Random Variable](https://en.wikipedia.org/wiki/Random_variable) which
 can take any value from 1 to 6. In Figaro you can model it like so:
 
-```scala
+<pre class="prettyprint">
  val dieRoll = FromRange(1, 7)
-```
+</pre>
 
 You can also model discrete as well as continuous random variables using Figaro. Figaro
 programs are structured using Model, Evidence and Inference stages. You model your problem using Figaro's stochastic
@@ -29,7 +29,7 @@ models, add evidence, constraints or conditions, and then use one of the many in
 In this example, I am modeling an experiment where a six-sided die is rolled twice, and we want to infer the probability of
 getting a sum of 11.
 
-```scala
+<pre class="prettyprint">
 import com.cra.figaro.language.Apply
 import com.cra.figaro.library.atomic.discrete.{FromRange}
 import com.cra.figaro.algorithm.factored.VariableElimination;
@@ -39,11 +39,13 @@ object HelloWorld {
   def main(args: Array[String]): Unit = {
     val firstDie = FromRange(1, 7)
     val secondDie = FromRange(1, 7)
-    val total = Apply(firstDie, secondDie, (firstDieResult: Int, secondDieResult: Int) => firstDieResult + secondDieResult)
+    val total = Apply(firstDie, secondDie, 
+                (firstDieResult: Int, secondDieResult: Int) => 
+                   firstDieResult + secondDieResult)
     println(VariableElimination.probability(total, 11))
   }
 }
-```
+</pre>
 
 `Apply` is a Figaro construct to model operations using Random variable, like in this example we're interested in Sum of the two
 Random variables.
