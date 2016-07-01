@@ -49,15 +49,30 @@
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     "headline": "{{ .Title }}",
     "author": {
       "@type": "Person",
-      "name": "http://profiles.google.com/+{{ .Site.Params.googleplus }}?rel=author"
+      "name": "http://profiles.google.com/{{ .Site.Params.googleplus }}?rel=author"
+    },
+"publisher": {
+      "@type": "Organization",
+      "name": "Sushant Srivastava",
+      "logo": {
+    "@type": "ImageObject",
+    "url": "https://lh6.googleusercontent.com/-upckdGjg_gc/T9DNmvx1XfI/AAAAAAAACd8/zbRpEYGKf5oFeWzQYWWD1Sv55V4kzIDFwCL0B/w872-h876-no/Photo%2Bon%2B2012-06-05%2Bat%2B08.20%2B%25232.jpg"}
     },
     "datePublished": "{{ .Date.Format "2006-01-02" }}",
+	"dateModified": "{{ .Date.Format "2006-01-02" }}",
     "description": "{{ .Description }}",
-    "wordCount": {{ .WordCount }}
+	"mainEntityOfPage": {{ .Permalink }},
+    "wordCount": {{ .WordCount }},
+"image": {
+    "@type": "ImageObject",
+    "url": "https://lh6.googleusercontent.com/-upckdGjg_gc/T9DNmvx1XfI/AAAAAAAACd8/zbRpEYGKf5oFeWzQYWWD1Sv55V4kzIDFwCL0B/w872-h876-no/Photo%2Bon%2B2012-06-05%2Bat%2B08.20%2B%25232.jpg",
+    "height": 800,
+    "width": 800
+  }
   }
 </script>
 {{ end }}

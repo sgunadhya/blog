@@ -7,6 +7,7 @@ paginate = 10
 paginatePath = "page"
 
 disqusShortname = "oromin"
+github = "mitra-varuna"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -31,6 +32,8 @@ disqusShortname = "oromin"
 	github = "mitra-varuna"
 	RSSEnabled = true
     RSSSections = [ "Posts" ]
+	linkedin = "ssushant"
+	googleplus = "112420258095319874956"
 
 
 [[menu.main]]
