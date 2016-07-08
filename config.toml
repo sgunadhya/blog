@@ -12,10 +12,12 @@ github = "mitra-varuna"
 [permalinks]
     post = "/:year/:month/:day/:slug/"
     code = "/:slug/"
+	review = "/:year/:month/:day/:slug/"
 
 [taxonomies]
     tag = "tags"
     topic = "topics"
+	review = "reviews"
 
 [author]
     name = "Sushant Srivastava"
@@ -37,7 +39,7 @@ github = "mitra-varuna"
 
 
 [[menu.main]]
-  name = "Posts"
+  name = "Postas"
   weight = 1
     identifier = "posts"
   url = "/posts/"
@@ -48,5 +50,8 @@ github = "mitra-varuna"
     identifier = "tags"
     url = "/tags/"
 
-	
-
+[[menu.main]]
+    name = "Reviews"
+    weight = 3
+    identifier = "reviews"
+    url = "/review/"

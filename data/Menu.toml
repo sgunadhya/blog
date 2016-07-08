@@ -7,3 +7,7 @@
     Name = "Tags"
     Title = "Show list of tags"
     URL = "/tags"     
+[reviews]
+	Name = "Reviews"
+	Title = "Show list of Reviews"
+	URL = "/review"
