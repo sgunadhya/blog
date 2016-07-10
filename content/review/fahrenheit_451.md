@@ -61,7 +61,7 @@ the novel forward. Most of the back story and background is through exposition.
 I had heard about the novel a long time ago, but only recently did I get a chance to read it. Before coming to this novel, I had
 the impression that the novels is about a dystopian society ruled by a Totalitarian state. I stand corrected. Thematically, this novel is nearer to **Brave New World** than **1984**. I was reminded of Neil Postman's **Amusing Ourselves to Death** while I was reading the novel. Consumption of Mass media and people demanding for their [safe zones](https://www.youtube.com/watch?v=EsMEYjr9o1M) leads to the state of affairs of the novel.
 
-Being a book about the books, there is intertextuality. The author references Gulliver's Travels, Plato's Republic etc. Metaphors abound - the books are birds which are being roasted alive, the humanity is phoenix which will rise from the ashes.
+Being a book about the books, there is intertextuality. The author references Gulliver's Travels, Plato's Republic etc. Metaphors abound - the books are birds which are being roasted alive, Humanity is phoenix which will rise from the ashes.
 
 > “... while the flapping pigeon-winged books died on the porch and lawn of the house”
 
