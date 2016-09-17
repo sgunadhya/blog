@@ -1,4 +1,4 @@
-baseurl = "http://ssushant.in"
+baseurl = "https://ssushant.in"
 languageCode = "en-us"
 title = "Random tech excursions"
 theme = "hugo-bootstrap"
