@@ -1,7 +1,7 @@
 +++
-title = "Getting the list of older versions of a PyPI Package"
+title = "Getting a list of the older versions of a PyPI Package"
 draft = false
-description = "Getting the list of older versions of a PyPI Package"
+description = "Getting a list of the older versions of a PyPI Package."
 keywords = ["pypi","versions"]
 topics = ["PyPI"]
 tags = ["pypi","versions"]
@@ -11,7 +11,7 @@ author = "Sushant Srivastava"
 +++
 
 As of right now, there's no link on PyPI to list older versions of a package.
-I was looking for an older version of oauth2client package on PyPI, but could not find any link on the package's page.
+I was looking for an older version of oauth2client package on PyPI, but could not find any link on the [package's PyPI page](https://pypi.python.org/pypi/oauth2client).
 
 It turns out there is a JSON API which lists any package's metadata. As an example, this URL lists all the old versions of oauth2client.
 
