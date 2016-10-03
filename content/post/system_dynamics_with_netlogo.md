@@ -21,5 +21,11 @@ type = "post"
 * Netlogo support for system Dynamics
 
 * An example of using System dynamics model with netlogo
+* Setup code
+* "Go" Code
 * Using stocks and flows
 * Drawing graphs
+
+* Useful links
+1.http://www.amazon.in/Business-Dynamics-Systems-Thinking-Modeling/dp/007238915X
+2.http://ccl.northwestern.edu/netlogo/docs/systemdynamics.html
