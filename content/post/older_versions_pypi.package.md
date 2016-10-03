@@ -7,16 +7,17 @@ keywords = [
   "versions",
 ]
 topics = [
-  "PyPI",
+  "PyPI"
 ]
 tags = [
   "pypi",
-  "versions",
+  "versions"
 ]
 date = "2016-10-03T19:03:53+05:30"
 type = "post"
 author = "Sushant Srivastava"
  +++
+ 
 As of right now, there's no link on PyPI to list older versions of a package.
 I was looking for an older version of oauth2client package on PyPI, but could not find
 any link on the package's page.
