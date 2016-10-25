@@ -20,7 +20,7 @@ Here are the assumptions I am making for this to work:
 * All your projects use the same `groupid`, in this case `com.xyz`.
 * Your project directories are named after the maven projects, if this is not the case you will need a mapping between your maven project name and the project directory's name on the filesystem.
 
-First, we get hold of the current project and its dependencies using `mvn`.
+First, we get hold of the current project and its dependencies using `mvn`. We run this in each of our `mvn` projects - 
 
 ```
 $ CUR_PROJ=$(mvn -DincludeGroupIds=com.xyz dependency:list | grep Building | awk '{print $3}')
