@@ -23,7 +23,7 @@ Here are the assumptions I am making for this to work:
 First, we get hold of the current project and its dependencies using `mvn`.
 
 ```
-$ CUR_PROJ=$(mvn -DincludeGroupIds=com.ef dependency:list | grep Building | awk '{print $3}')
+$ CUR_PROJ=$(mvn -DincludeGroupIds=com.xyz dependency:list | grep Building | awk '{print $3}')
 $ mvn -DincludeGroupIds=com.xyz dependency:list | grep com.xyz | awk -F':' -v proj=$CUR '{print $2 "\t" proj}' >> /tmp/dependencies
 ```
 
