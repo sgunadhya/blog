@@ -11,6 +11,9 @@ type = "post"
 
 +++
 
+{{<figure src="/orrery.jpg" attr="" class="col-md-offset-3" attr="Photo from Wikipedia : Faithful photographic reproduction of a two-dimensional, public domain work of art.">}}
+
+
 1.Split up your system’s functionality into manageable, standalone nodes.
 * what is functionality
 * what is node
