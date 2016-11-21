@@ -18,7 +18,7 @@ type = "review"
 
 +++
 
-* Name of the book, author of the book and a, year of publication and Short setting of the book
+ American Gods is a fantasy, Americana novel set in turn of the 21st century America.
 
 * Setting of the world
 =====================
