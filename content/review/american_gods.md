@@ -18,7 +18,7 @@ type = "review"
 
 +++
 
- American Gods is a fantasy, Americana novel set in turn of the 21st century America.
+ American Gods is a fantasy, Americana novel set in the turn of the 21st century America.
 
 * Setting of the world
 =====================
@@ -45,8 +45,14 @@ Plot
 * What moves the story forward?
 War between modern gods and the ancient gods
 * What lets us keep up with the flow of information?
+Odin's exposition about various gods. We travel with Odin and Shadow
 * We mostly follow Shadow
 * How many nests? Arcs? Characters? Reward cycles?
+Odin Arc
+Shadow Arc
+Shadow's wife's arc
+Arc from the killer
+the new Gods' arc
 * Wednesday
 * Loki
 * Mamaji
