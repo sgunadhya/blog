@@ -1,5 +1,7 @@
 <div class="container"><h5>By {{ .Params.bookauthor }}</h5></div>
 <div class="container"><span class="stars-container stars-{{ .Params.bookrating }}">★★★★★</span></div>
+<div class="container"><div class="col-md-4"></div><img src="{{ .Params.bookimageurl }}" class="fluid-image"></img>
+<div class="btn-toolbar" style="padding-top:20px"></div>
 {{ partial "bloc/content/content" . }}
 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 <iframe  style="height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=ssushantin-21&marketplace=amazon&region=IN&placement=1451690312&asins={{ .Params.asins }}&linkId=&show_border=true&link_opens_in_new_window=true&price_color=040404&title_color=005FB3&bg_color=FFFFFF" ></iframe>
