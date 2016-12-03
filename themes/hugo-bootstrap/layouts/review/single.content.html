@@ -1,6 +1,6 @@
 <div class="container"><h5>By {{ .Params.bookauthor }}</h5></div>
 <div class="container"><span class="stars-container stars-{{ .Params.bookrating }}">★★★★★</span></div>
-<div class="container"><div class="col-md-4"></div><img src="{{ .Params.bookimageurl }}" class="fluid-image"></img>
+<div class="container text-xs-center"><div class="col-md-4"></div><img src="{{ .Params.bookimageurl }}" class="fluid-image img-thumbnail mx-auto float-xs-right rounded"></img></div>
 <div class="btn-toolbar" style="padding-top:20px"></div>
 {{ partial "bloc/content/content" . }}
 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
