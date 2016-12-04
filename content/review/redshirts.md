@@ -37,8 +37,8 @@ show. The physics of their universe is also dictated by the TV writers and "anyt
 
 Andrew Dahl who is the protagonist is sceptical of Jenkins' theory. He buys it after he sees the strong evidence. He persuaded his friends to help
 him in the remedial mission as well. Andrew Dahl, interestingly, is a student of an esoteric religion which is similar to Zen Buddhism.
-He is a truth seeker, and like every protagonist is blessed with good luck and charisma. Rest of the team members have distinct personalities but they
-are all sceptical but support Dahl after discovering strengths in the argument. You sympathize with the characters who are as hapless and helpless as Daffy duck from the existential surreal cartoon [Duck Amuck](https://en.wikipedia.org/wiki/Duck_Amuck) where Daffy duck is flummoxed by the animator, who turns out to be the beloved Bugs Bunny, changing the setting whimsically.
+He is a truth seeker, and like every protagonist is blessed with good luck and charisma. Rest of the team members have distinct personalities and
+doubt the theory but support Dahl after discovering strengths in the argument. You sympathize with the characters who are as hapless and helpless as Daffy duck from the existential surreal cartoon [Duck Amuck](https://en.wikipedia.org/wiki/Duck_Amuck) where Daffy duck is flummoxed by the animator, who turns out to be the beloved Bugs Bunny, changing the setting whimsically.
 
 
 ## Thoughts
