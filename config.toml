@@ -39,7 +39,7 @@ github = "mitra-varuna"
 
 
 [[menu.main]]
-  name = "Postas"
+  name = "Posts"
   weight = 1
     identifier = "posts"
   url = "/posts/"
