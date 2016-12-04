@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -8,7 +8,7 @@ html {
 }
 body {
     /* Margin bottom by footer height */
-    font-family: 'Open Sans', 'sans-serif';
+    font-family: 'Roboto', 'sans-serif';
     margin-bottom: 60px;
 }
 .footer {
