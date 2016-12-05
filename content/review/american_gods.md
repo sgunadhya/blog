@@ -5,7 +5,7 @@ bookauthor = "Neil Gaiman"
 bookimageurl = "URL of the book"
 bookname = "American Gods"
 bookpublisher = "William Morrow and Company"
-bookrating = 8.7
+bookrating = 8.1
 bookreview = ""
 date = "2016-09-30T18:16:45-04:00"
 description = "American Gods written by Neil Gaiman is muti-genre fantasy novel set in 2000s America."
@@ -20,6 +20,8 @@ type = "review"
 
 American Gods, written by Neil Gaiman, is muti-genre fantasy novel set in the turn-of-century America where
 Gods walk the Earth with the mortals.
+=======
+ American Gods is a fantasy, Americana novel set in the turn of the 21st century America.
 
 *** There are spoilers in the Settings as well as the Plot sections; please skip to the end to know about my thoughts and reflections.***
 
@@ -64,8 +66,14 @@ Wednesday reaches out to several Gods from different pantheons.
 * What moves the story forward?
 War between modern gods and the ancient gods
 * What lets us keep up with the flow of information?
+Odin's exposition about various gods. We travel with Odin and Shadow
 * We mostly follow Shadow
 * How many nests? Arcs? Characters? Reward cycles?
+Odin Arc
+Shadow Arc
+Shadow's wife's arc
+Arc from the killer
+the new Gods' arc
 * Wednesday
 * Loki
 * Mamaji
