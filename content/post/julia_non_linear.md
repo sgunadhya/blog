@@ -11,8 +11,7 @@ type = "post"
 
 +++
 
-In a [previous post](https://www.ssushant.in/2016/09/10/using-julia-for-linear-programming/), I discussed using Julia for 
-Linear Programming. It turns out, Julia's JuMP package can also be used for Non linear optimization and root finding.
+In a [previous post](https://www.ssushant.in/2016/09/10/using-julia-for-linear-programming/), I discussed using Julia for Linear Programming. It turns out, Julia's JuMP package can also be used for Non linear optimization and root finding.
 
 To use JuMP's non linear solvers, you'll need to install a non linear solver package, for example `Ipopt`.
 
@@ -114,7 +113,7 @@ julia> getvalue(x)
 
 In this post, I used the `JuMP` package for non linear optimization.
 JuMP is a convenient and useful tool and should be in every modeler's toolbox.
-It is turning out to be an uber package for optimization. I'll blog more 
+It is turning out to be an uber package for optimization. I'll continue blogging
 as I explore the JuMP package.
 
 

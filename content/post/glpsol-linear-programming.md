@@ -56,7 +56,7 @@ We can solve the Knapsack problem like so:
 glpsol --model knapsack.mod --data knapsack.dat -o result
 ```
 
-The file `result` produced as a result of the `glpsol` command will details about the solution, if a solution exists.
+The file `result` produced as a result of the `glpsol` command will have the details about the solution, if a solution exists.
 
 
 [1] http://rosettacode.org/wiki/Knapsack_problem/Bounded#Mathprog

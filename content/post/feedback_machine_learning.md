@@ -13,7 +13,7 @@ type="post"
 I use Test Driven Development (TDD) when developing a new software. TDD
 is a useful technique for validating assumptions and refactoring the
 code. I was wondering what TDD paradigm would work best for a Machine
-Learning project. I readup on the subject and I am jotting down my
+Learning project. I read up on the subject and I am jotting down my
 findings from various sources - books, Quora answers and simple
 browsing.
 
@@ -34,7 +34,7 @@ Two risks with machine learning models are -
 [Overfitting](https://www.quora.com/What-is-an-intuitive-explanation-of-overfitting)
 and
 [Underfitting](http://datascience.stackexchange.com/questions/361/when-is-a-model-underfitted).
-The Overfitting problems happens when when the model fits the data very
+The Overfitting problems happens when the model fits the data 
 tightly whereas Underfitting happens when we don't use enough data while
 coming up with a machine learning model.
 
