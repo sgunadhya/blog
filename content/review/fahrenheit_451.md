@@ -20,8 +20,8 @@ is prohibited by the Law.
 
 ### Setting
 
-The novel is set in a **possible** dystopian future. The setup is minimal; the author only describes the relevant details.
-The city is a future version of the society where reading books is prohibited. People in possession of books are hunted and
+The novel is set in a **possible** dystopian future. The setup is minimal; the author only describes the relevant details about
+the city which is a future version of the society. Reading books is prohibited. People in possession of books are hunted and
 their books, and their home are set on fire. The fire fighters have turned into arsonists. They are given the responsibility
 to hunt down the book readers and burn their possessions.
 
@@ -38,16 +38,16 @@ that people thought that they were better off in their safe zones rather than su
 ### Characters
 
 * The protagonist of this novel is a fire fighter, Guy Montag. He is an archetypical Hero who goes on a Hero's Journey.
-  His internal struggle is the crux of the novel. He is in denial with the reality, becomes disillusioned with the status quo
+ His internal struggle is the crux of the novel. He is in denial with the reality, becomes disillusioned with the status quo
   after witnessing death of his friend and a gruesome arson of an old lady's house, and rebels.
 * Mildred, Montag's wife is used to her routine life. She is emotionally distant from Montag. In a way, she's the model citizen of
-  the city. She disapproves of Montag's **itch** to make sense of the world and regain his lost humanism. She enjoys watching TV on her
-  Parlour walls and racing her car to clear her head.
+ the city. She disapproves of Montag's **itch** to make sense of the world and regain his lost humanism. She enjoys watching TV on her
+ Parlour walls and racing her car to clear her head.
 * Claire is a young cheerful girl who's curious about the world that had been. She's an ***odd duck*** who enjoys human interaction
-  and rejoices in nature.
-* Beatty is the chief of Firemen staff. He is an archetypical Father figure and a Trickster. He is presumably well read but abides by
-  the rules.
-* Faber and Granger are archetypical Old Wise men and Rebel who are former professors but try to hide their former identities.
+ and rejoices in nature.
+* Beatty is the chief of Firemen staff. He is an archetypal Father figure and a Trickster. He is presumably well read but abides by
+ the rules.
+* Faber and Granger are archetypal Old Wise men and Rebel who are former professors but try to hide their former identities.
 * Strange creatures and gadgets are tropes of scifi novels. There's a mechanical hound, an eight legged bag of chemicals which is programmed to track and punish the law breakers.
 
 ### Plot

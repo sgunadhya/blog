@@ -51,11 +51,11 @@ type = "review"
 * Specialized vs Renaissance Man
 * Reinforcement Learning
 * Nurtured by Love
-* Software Engineering Anthropolgy
+* Software Engineering Anthropology
 * Nature vs Nurture
 * Parenting
 * Free will
-* Emergent behavior
+* Emergent behaviour
 
 
 http://subterraneanpress.com/magazine/fall_2010/fiction_the_lifecycle_of_software_objects_by_ted_chiang/

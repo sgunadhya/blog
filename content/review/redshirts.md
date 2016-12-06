@@ -17,7 +17,6 @@ type = "review"
 asins = "0765316994"
 
 +++
-
 Redshirts, is a sci-fi meta-fiction novel written by John Scalzi about a group of friends aboard a spaceship in the future that is dealing
 with strange occurrences on away missions which put their lives at risk.
 
@@ -30,7 +29,7 @@ dwells little on the economy of the world except for mentioning that one of the 
 in the universe. 
 
 ## Characters and Plot
-The characters are the crew members of the spaceship Intrepid. The group consists of the new recruits, called ensigns, including Andrew Dahl, the protagonist.The ensigns onboard Intrepid discover a strange phenomenon about high correlation between the commanding officer on an away mission and
+The characters are the crew members of the spaceship Intrepid. The group consists of the new recruits, called ensigns, including Andrew Dahl, the protagonist. The ensigns on board Intrepid discover a strange phenomenon about high correlation between the commanding officer on an away mission and
 the death of the crew members accompanying them. They cannot fathom any causal relationship about the correlation, and blame on several factors like incompetence, high risk and coincidence. A recluse on the ship, Jenkins, has discovered that their lives are governed by a strange phenomenon which he calls
 the "narrative". According to him, the crew members are living out their lives as part of the fiction concocted by a 21st century TV series' writers. In other words, they are characters from the fictional universe of the show, and their lives are dictated by the whimsical, and morbid, drama of the 
 show. The physics of their universe is also dictated by the TV writers and "anything goes" to serve the drama and the silly plot.
@@ -46,4 +45,4 @@ John Scalzi, the writer, cleverly deconstructs the tropes of bad sci-fi, and wea
 
 Apart from the references to the silly sci-fi, the novel has an undercurrent of an oft-discussed philosophical debate - free will, its unit operation. Are our
 lives governed by our own volition? Is there a grand narrative and we play out our part? [Elon Musk thinks as much](https://www.reddit.com/r/Futurology/comments/4xtlbi/why_elon_musk_says_were_living_in_a_simulation/). John, off course, does not provide an answer and as a parthian shot almost gives this comic
-novel a morbid ending, but quickly retracts as if almost quoting Bugs Bunny from Duck Amuck - "Ain't I a stinker".
+novel a morbid ending, but quickly retracts as if almost quoting Bugs Bunny from Duck Amuck - "Ain't I a stinker". 
