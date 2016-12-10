@@ -72,8 +72,8 @@ He describes the development of the software platform in vivid details. I have b
 His ethnography of software workflow is spot on. The product ships in different stages of lifecycle - testing, debug and production release.
 Another interesting point raised is development of software platforms and their half cycles. How often have we seen a software platform losing
 traction of footfalls and the developers abandoning them. What happens to the content developed for the platform? What happens to the conversations
-and debates and comments and likes and uploads and captions and tags on the platform? The platforms with these software artifacts attracts people
-and we value our time and commitment. When the software ceases to exist the archives don't carry the same nostalgia, the same emotions.
+and debates and comments and likes and uploads and captions and tags on the platform? The platforms with these software artifacts attract people
+and we value our time and commitment. When the software ceases to exist, the archives don't carry the same nostalgia, the same emotions.
 Mutihoming of the platforms carries with it the same problems. Unless the migration is complete, or even when it is, the artifacts do not carry the
 same emotion or value. Something is always lost in translation.
 
