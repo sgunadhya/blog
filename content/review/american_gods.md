@@ -39,8 +39,6 @@ and even escorts to earn their livelihood.
 It appears that the Gods survive on people's faith. Faith is the currency of the
 Gods, both old and new.
 
-peoplf.
-Set in America
 Popular culture
 Americana
 Faith is a crucial resource
