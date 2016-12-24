@@ -1,5 +1,5 @@
 +++
-asins = "B004YW4L5K"
+asins = "B005NACYQU"
 author = "Sushant Srivastava"
 bookauthor = "Neil Gaiman"
 bookimageurl = "https://upload.wikimedia.org/wikipedia/en/4/49/American_gods.jpg"
@@ -43,7 +43,7 @@ where people obsess over technology and mass media.
 
 Wednesday, an American version of the Norse God Odin, has taken upon himself to wage a war against the new Gods. He hires Shadow, a reformed convict, to help him with the war. Together they travel around America, seeking help from the ancient Gods, who have *retired*, and lead a normal human-being-like life. It is not clear what killing the new Gods alludes to, perhaps a Luddite revolution.
 
-Wednesday reaches out to several Gods from different pantheons. They are reluctant to join Odin's mission. Meanwhile, the new Gods of Media, Town et al. capture Shadow. Shadow is eventually rescued by his wife Laura, who is in a zombie-like state. Odin is killed by the new Gods, and the enraged old world Gods
+Wednesday( who is a reincarnation of the Norse God, Odin) reaches out to several Gods from different pantheons. They are reluctant to join Odin's mission. Meanwhile, the new Gods of Media, Town et al. capture Shadow. Shadow is eventually rescued by his wife Laura, who is in a zombie-like state. Odin is killed by the new Gods, and the enraged old world Gods
 engage in a final showdown with the new Gods. Shadow learns that the whole war is actually a ploy by Odin and Loki to regain their stronghold. He interrupts the war and convinces them that the conflict is futile. 
 
 The main story is inter cut by vignette about how mythic beings work odd jobs to survive, and some origin stories about how the Gods made their way to America which is an allusion to how the American Migrants made their way into the geographical area we now call America. Hint: it goes back a long way before Anno Dimini.
