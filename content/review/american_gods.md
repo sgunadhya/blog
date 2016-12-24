@@ -84,14 +84,20 @@ the new Gods' arc
 
 Thoughts
 ========
-The novel is littered with allusions.
-Intertextuality
-Magical Realism
-Understanding Media
-Bicameral Mind
-Joseph Campbell
-Norse
-African
-Slavic
-Indian
-Arabic
+The novel is littered with allusions. There are many allusions to the World Mythology.
+I was fascinated with Comparative Mythology ever since I read Joseph Campbell's excellent Masks of God series.
+The central characters Wednesday is an obvious allusion to the Norse God - Odin. Shadow meets several Gods from 
+different pantheons.
+
+Neil is describing America. America and mainly cosmopolitan American Cities are melting pots of culture, a 
+pot-pourri of faiths and beliefs from cultures and religions. The Gods, who can be interpreted as thoughtforms,
+have to change and adapt; so much so that some of these mythic beings have to eke out their living through the 
+American Way. It is an allusion to the American Way of Life - everyone's a small fish in the big pond, God or not,
+and "there ain't no such thing as a free lunch". The Gods have resigned to a life where they do not depend on their
+worshippers any longer. They are content with whatever oblations, little or negligent, they receive from their followers.
+
+The new Gods represent Media and Automation. The Gods of the future, people rely on them, live by them and revere them
+They are not abstract Gods. These are essential tools for modern living. 
+
+Overall, I found the premise interesting. There are layers to each description and plot twists. I enjoyed the references
+and the I-see-what-you-did-there moments.
