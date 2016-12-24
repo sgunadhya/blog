@@ -22,8 +22,8 @@ American Gods, written by Neil Gaiman, is muti-genre fantasy novel set in the tu
 Gods walk the Earth with the mortals.
 
 
- Setting
-=====================
+## Setting
+
 Modern world inhabited by the immortal Gods who look like regular human beings.
 America has been a melting pot of cultures from around the world. The ancient Gods
 worshipped by people from around the world have fallen out of favor from the
@@ -39,8 +39,8 @@ has dwindled and they can't seem to find a place in the new turn of the century 
 where people obsess over technology and mass media.
 
 
-Plot
-====
+## Plot
+
 Wednesday, an American version of the Norse God Odin, has taken upon himself to wage a war against the new Gods. He hires Shadow, a reformed convict, to help him with the war. Together they travel around America, seeking help from the ancient Gods, who have *retired*, and lead a normal human-being-like life. It is not clear what killing the new Gods alludes to, perhaps a Luddite revolution.
 
 Wednesday reaches out to several Gods from different pantheons. They are reluctant to join Odin's mission. Meanwhile, the new Gods of Media, Town et al. capture Shadow. Shadow is eventually rescued by his wife Laura, who is in a zombie-like state. Odin is killed by the new Gods, and the enraged old world Gods
@@ -49,8 +49,8 @@ engage in a final showdown with the new Gods. Shadow learns that the whole war i
 The main story is inter cut by vignette about how mythic beings work odd jobs to survive, and some origin stories about how the Gods made their way to America which is an allusion to how the American Migrants made their way into the geographical area we now call America. Hint: it goes back a long way before Anno Dimini.
 
 
-Thoughts
-========
+## Thoughts
+
 The novel is littered with allusions. There are many allusions to the World Mythology.
 I was fascinated with Comparative Mythology ever since I read Joseph Campbell's excellent Masks of God series.
 The central characters Wednesday is an obvious allusion to the Norse God - Odin. Shadow meets several Gods from different pantheons.
