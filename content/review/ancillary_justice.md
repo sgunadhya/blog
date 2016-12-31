@@ -48,8 +48,8 @@ The ancillary units who serve Radchaai Generals aboard ship can analyze situatio
 
 ### Characters
 
-The story progresses through a dual time lines. In the present, an ancillary unit from the ship Justice of
-Toren is stranded in an icy-col planet after all the other units of its hive mind were destroyed in a political plot.
+The story progresses through two time lines. In the present, an ancillary unit from the ship *Justice of
+Toren* is stranded in an icy-col planet after all the other units of its hive mind were destroyed in a political plot.
 The unit assumes the identity of Breq, and roams around the planets with the singular objective to seek revenge.
 Breq comes across Seivarden, a vagabond and a drug-addict, who turns out to be the general from the same ship Breq was part of from some thousand years before. Breq recognizes Seivarden and nurses Seivarden back to health. Seivarden does not recognize Breq and dislikes Breq's cheeky remarks, but joins Breq's journey to the Radchaai ship.
 
@@ -59,7 +59,7 @@ Breq, who is known as the ancillary unit - One Esk, serves General Awn on the sh
 The story is told in the first-person narrative by Breq. An interesting aspect of the Radchaai language is that there are no gender pronouns.
 The generic pronoun - she and the possessive - her is used for everyone. You never get to know what gender the humans have.
 
-#### Thoughts
+### Thoughts
 
 I read rave reviews about the book before reading it. I found the concept of distributed intelligence fascinating and the fact that the narration
 is from the perspective of an AI unit. Distributed units act like nodes in a distributed system, and it was fascinating how
