@@ -22,5 +22,5 @@ type = "review"
 * New york times
 * Unintended consequences
 * Brian Arthur recombinant technology
-* 
+* http://www.nytimes.com/interactive/2016/12/14/technology/how-self-driving-cars-work.html
 
