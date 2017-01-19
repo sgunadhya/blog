@@ -48,3 +48,7 @@ Thoughts
 * Apathy
 * Political Satire
 * Twin cities, parallel development
+
+The central point of the novel is the coexistence of two cities in the same physical space. Ul Qoma and Bes´zel occupy the same physical space, but in a metaphysical realm these cities and more importantly the citizens of the two cities try to looks as different from the other as possible. They unsee, unhear and unacknowledge the existence of each other. I find the allegory powerful and germane to our current political and social life. People unsee and unhear news which do not align with their political views or challenge their moral standpoints. Social media in particular amplifies this effect. We are shown filtered news or manufactured content which aligns with our political views and are recommended stories and news items which aligns with our preferences. We unhear, unsee and unacknowledge differing view points. The only way to remain neutral is, like Bowden, obfuscate our locus standi. Like Breach, the relentless social machine, watches over us and notices even a small
+digression. The "breachers", then, are subjected to unknown punishment like vitriol or social exclusion. 
+China Miéville employs a powerful allegory. Ul Qoma and Bes´zel are powerful and timeless metaphors to understand consequenses of socio-political rifts.
