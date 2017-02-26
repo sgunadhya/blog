@@ -7,9 +7,9 @@ bookname = "City and the City"
 bookpublisher = "Del Rey Books"
 bookrating = 7
 bookreview = "A police procedural noir drama set in an alternate reality about apathy, isolation and hate-politics"
-date = "2017-01-18T23:57:08+05:30"
+date = "2017-02-26T23:57:08+05:30"
 description = "A police procedural noir drama set in an alternate reality about apathy, isolation and hate-politics"
-draft = true
+draft = false
 keywords = ["hugo award", "police-procedural", "noir"]
 name = "City and the City"
 tags = ["hugo award", "police-procedural", "noir"]
@@ -43,33 +43,41 @@ Bes´zel, on the other hand, appears to be behind Ul Qoma in technological progr
 
 
 Migration from one city to another is an involved bureaucratic process. There
-are check posts in either city to prevent infiltration or any breach. The cities
+are check posts in both the cities to prevent infiltration or any breach. The cities
 are apparently located somewhere in Europe and getting to Ul Qoma from a foreign
-county like the United States is easier.
+county like the United States is easier than visiting Bes´zel.
 
 In the event of a breach, a special task force called the Breach deals with
 the culprit and doles out an unknown punishment.
 
 
 
-* Characters
-* Tell about the Story, story is about how characters grow, change, and become
-* Characters internal growth conflict - internal and external
-* Plot points - Are they copied
-* Why is it speculative fiction
+### Characters
 
-* Plot
-* What moves the story forward?
-* What lets us keep up with the flow of information?
-* How many nests? Arcs? Characters? Reward cycles?
-* Cast of interesting &sympathetic characters in a complex and rich world
-* Plot points - Are they copied
+The main character of this story is an Inspector from Bes´zel, Borlu. He is 
+informed about the death of a young woman in wee hours. This event and the subsequent
+investigation sets the ball rolling for this novel. We follow Borlu's procedural
+investigation and most of the novel is narrated from his point of view.
+Borlu is determined to solve the case and the trail leads to his ordeal
+with Breach. He is world weary but curious. His relentless pursuit leads him to face 
+a reality which can only be described as Kafkaesque. He is a sympathetic
+character caught in the strange world. He grows from being a conformist 
+to an unflinching rebel questioning his identity and the world he had inhabited
+since birth.
 
-Thoughts
-* Apathy
-* Political Satire
-* Twin cities, parallel development
+As a reader we travel with Borlu, like Sherlok's Watson, uncovering layers
+upon layers of conspiracy and deceit in the bizarre world.
+
+
+### Thoughts
 
 The central point of the novel is the coexistence of two cities in the same physical space. Ul Qoma and Bes´zel occupy the same physical space, but in a metaphysical realm these cities and more importantly the citizens of the two cities try to look as different from the other as possible. They unsee, unhear and unacknowledge the existence of each other. I find the allegory powerful and germane to our current political and social life. People unsee and unhear news which do not align with their political views or challenge their moral standpoints. Social media in particular amplifies this effect. We are shown filtered news or manufactured content which aligns with our political views and are recommended stories and news items which aligns with our preferences. We unhear, unsee and unacknowledge differing view points. The only way to remain neutral is, like Bowden, obfuscate our locus standi. Like Breach, the relentless social machine, watches over us and notices even a small
 digression. The "breachers", then, are subjected to unknown punishment like vitriol or social exclusion.
-China Miéville employs a powerful allegory. Ul Qoma and Bes´zel are powerful and timeless metaphors to understand consequenses of socio-political rifts.
+China Miéville employs a powerful allegory. Ul Qoma and Bes´zel are powerful and timeless metaphors to understand consequenses of sociopolitical rifts.
+
+China Miéville's writing is vivid and detailed. He paints a bleak picture of the world. The words evoke a feeling of being in a Film-noir movie, say
+of Humphrey Bogart. Much like Humphrey Bogart's character in Maltese Falcon, Miéville's Borlu is world weary and doomed from the start. You can
+almost imagine Borlu brooding over the case, and his face dimly lit through a light from the window panes.
+
+My biggest gripe with the novel is its third act or the end. I did not get a feeling of closure and the climax felt rushed. Miéville tried
+a meta-fiction twist in the end, but it did not work for me.
