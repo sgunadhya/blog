@@ -65,7 +65,7 @@ character caught in the strange world. He grows from being a conformist
 to an unflinching rebel questioning his identity and the world he had inhabited
 since birth.
 
-As a reader we travel with Borlu, like Sherlok's Watson, uncovering layers
+As a reader we travel with Borlu, like Sherlock's Watson, uncovering layers
 upon layers of conspiracy and deceit in the bizarre world.
 
 
