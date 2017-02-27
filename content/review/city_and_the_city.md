@@ -11,14 +11,14 @@ date = "2017-02-26T23:57:08+05:30"
 description = "A police procedural noir drama set in an alternate reality about apathy, isolation and hate-politics"
 draft = false
 keywords = ["hugo award", "police-procedural", "noir"]
-name = "City and the City"
+name = "The City and the City"
 tags = ["hugo award", "police-procedural", "noir"]
-title = "City and the City"
+title = "The City and the City"
 type = "review"
 
 +++
 
-City and the City is a police-procedural, noir speculative fiction novel written by China Méiville.
+The City and the City is a police-procedural, noir speculative fiction novel written by China Méiville.
 The novel is about twin cities Ul Qoma and Bes´zel which exist in the same physical space but have different
 social, cultural and political norms.
 
