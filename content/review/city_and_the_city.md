@@ -3,7 +3,7 @@ asins = "034549752X"
 author = "Sushant Srivastava"
 bookauthor = "China Miéville"
 bookimageurl = "https://upload.wikimedia.org/wikipedia/en/d/d1/Mieville_City_2009_UK.jpg"
-bookname = "City and the City"
+bookname = "The City and the City"
 bookpublisher = "Del Rey Books"
 bookrating = 7
 bookreview = "A police procedural noir drama set in an alternate reality about apathy, isolation and hate-politics"
@@ -54,14 +54,14 @@ the culprit and doles out an unknown punishment.
 
 ### Characters
 
-The main character of this story is an Inspector from Bes´zel, Borlu. He is 
+The main character of this story is an Inspector from Bes´zel, Borlu. He is
 informed about the death of a young woman in wee hours. This event and the subsequent
 investigation sets the ball rolling for this novel. We follow Borlu's procedural
 investigation and most of the novel is narrated from his point of view.
 Borlu is determined to solve the case and the trail leads to his ordeal
-with Breach. He is world weary but curious. His relentless pursuit leads him to face 
+with Breach. He is world weary but curious. His relentless pursuit leads him to face
 a reality which can only be described as Kafkaesque. He is a sympathetic
-character caught in the strange world. He grows from being a conformist 
+character caught in the strange world. He grows from being a conformist
 to an unflinching rebel questioning his identity and the world he had inhabited
 since birth.
 
