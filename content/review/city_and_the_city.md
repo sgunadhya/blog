@@ -31,9 +31,9 @@ Berlin or Tel Aviv and Jaffa in Israel. The difference is that these fictional
 cities occupy the same physical space, but in an unclear metaphysical realm
 these cities are different from each other. There are subtle cues in architecture,
 culture and speech from which the citizens figure out which city is where.
-There are areas where the two cities overlap which are called as cross hatch.
+There are areas where the two cities overlap which called cross hatch.
 The citizens from one city cannot move into another. The act of stepping in
-another city is considered a severe violation known as the Breach.
+another city is a severe violation known as the Breach.
 
 Ul Qoma and Bes´zel have different languages and culture. Bes´zel is ostensibly
 an older city with richer history. The names of citizens in Bes´zel seem to
@@ -59,7 +59,7 @@ informed about the death of a young woman in wee hours. This event and the subse
 investigation sets the ball rolling for this novel. We follow Borlu's procedural
 investigation and most of the novel is narrated from his point of view.
 Borlu is determined to solve the case and the trail leads to his ordeal
-with Breach. He is world weary but curious. His relentless pursuit leads him to face
+with Breach. He appears jaded but curious. His relentless pursuit leads him to face
 a reality which can only be described as Kafkaesque. He is a sympathetic
 character caught in the strange world. He grows from being a conformist
 to an unflinching rebel questioning his identity and the world he had inhabited
