@@ -32,7 +32,7 @@ their intersection is the germination of creativity - a [bisociation](https://ww
 anomalies and red-herrings accelerated Human Understanding more than the systematic
 cause and effect linear thinking.
 
-We know that context affects our approach to problem solving.
+We know that the context affects our approach to problem solving.
 A singular point-of-view, a fine approach lets us see the solution plain
 and clear. Our reach and our grasp become the same. We arrive at a solution
 with tunnel-vision-like clarity and flow. It is the same relief we get when we solve a hard problem in Mechanics by a Lagrangian or Hamiltonian and not from the systematic
@@ -46,7 +46,7 @@ story we understand that their language is specifically evolved to understand
 time's trajectory. Just as we have domain specific vocabulary to understand,
 interpret and act, the aliens developed the language which appears to be a domain
 Specific language for Time travel (or Time's trajectory). A person who understood
-the language could predict future.
+the language could predict the future.
 
 An outstanding achievement of this story is pointing out that cause and effect reasoning
 might be one of the tools to understand causality or entropy or time's arrow, but
