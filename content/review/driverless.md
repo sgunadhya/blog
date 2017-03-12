@@ -2,7 +2,7 @@
 asins = "B01K13FURS"
 author = "Sushant Srivastava"
 bookauthor = "Hod Lipson and Melba Kurman"
-bookimageurl = "https://mitpress.mit.edu/sites/default/files/9780262035224_1.jpg"
+bookimageurl = "/driverless.jpg"
 bookname = "Driverless"
 bookpublisher = "The MIT Press"
 bookrating = 9
