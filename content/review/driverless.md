@@ -7,7 +7,7 @@ bookname = "Driverless"
 bookpublisher = "The MIT Press"
 bookrating = 9
 bookreview = "An insightful commentary about self driving cars"
-date = "2016-03-12T18:30:47+05:30"
+date = "2017-03-12T18:30:47+05:30"
 description = "description"
 draft = false
 keywords = ["driverless", "nonfiction"]
@@ -72,4 +72,4 @@ might become the transportation du jour of the future. There's a long laundry li
 
 All in all, I found the book to be fascinating and insightful. Two thumbs up.
 
-{{<figure src="/driverless_notes.png" class="col-md-offset-3" }}
+{{<figure src="/driverless_notes.png" class="col-md-offset-2" }}
