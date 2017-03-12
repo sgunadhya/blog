@@ -1,19 +1,19 @@
 +++
-asins = ""
+asins = "B01K13FURS"
 author = "Sushant Srivastava"
-bookauthor = "Author of the book"
-bookimageurl = "URL of the book"
-bookname = "Name of the book"
-bookpublisher = "Book Publisher"
+bookauthor = "Hod Lipson and Melba Kurman"
+bookimageurl = "https://mitpress.mit.edu/sites/default/files/9780262035224_1.jpg"
+bookname = "Driverless"
+bookpublisher = "The MIT Press"
 bookrating = 9
 bookreview = "Short review of the book"
-date = "2016-12-31T18:30:47+05:30"
+date = "2016-03-12T18:30:47+05:30"
 description = "description"
 draft = true
-keywords = ["key", "words"]
-name = "name of the book"
-tags = ["one", "two"]
-title = "driverless"
+keywords = ["driverless", "nonfiction"]
+name = "Driverless"
+tags = ["driverless", "nonfiction"]
+title = "Driverless"
 type = "review"
 
 +++
