@@ -24,7 +24,8 @@ type = "review"
 * Brian Arthur recombinant technology
 * http://www.nytimes.com/interactive/2016/12/14/technology/how-self-driving-cars-work.html
 
-* Driverless cars are autonomous robots which drive cars with human-like precision, call them robotic chauffers if you will. Imagine a world where cars drive themselves, pick you up from any place, and then leave you to your 
+
+Driverless cars are autonomous robots which drive cars with human-like precision, call them robotic chauffers if you will. Imagine a world where cars drive themselves, pick you up from any place, and then leave you to your 
 destination; and then imagine a fleet of cars coordinating among themselves transporting materials and people
 without any human intervention, taking shortest path considering road conditions, traffic situation and any other
 disruptions by being preemptively notified. Driverless cars or Self Driving cars which caught our fantasy few years ago are a reality now. Google was one of the first companies to build a prototype and iterate over the prototype
@@ -36,6 +37,12 @@ autonomous transportation was the work towards intelligent highways which regula
 of vehicles in its lanes. The authors describe that the idea was doomed from the start because it did not
 leverage existing infrastructure and needed special vehicles to run on the highways; which was, let's face it, 
 not going to happen.
+
+Let's take apart the self driving cars and see how it works. Self driving car is a robot, and like other 
+robots it has sensors for instrumenting its environment and actuators, its way to react with th environment.
+The actuators are, of course, the constituents of car like brakes, accelerators et al. A self driving cars uses
+a plethora of sensors to make sense of its environment. [LIDARs](https://en.wikipedia.org/wiki/Lidar) and [SONARs](https://en.wikipedia.org/wiki/Sonar) are used to estimate distances
+between the car and other hurdle. GPS an
 
 
 
@@ -52,5 +59,8 @@ as the Government machinery which allows their usage, are continuously studying 
 repercussions of the decisions. Whether these decisions will we outsourced at run time to a Moral Machine, only time wil tell. With increased profiling of the prople using the Social Machine, I will not be surprised if such a machine or algorithm already exists.
 
 
-
+The sociological ramificatioins of a self driving car culture are also interesting. Owning a car, at least in America, is a rite of passage. The car manufactures have harvested people's aspirations and designed cars for 
+people which have varied tastes. How is self driving cars going to change that? The ride-sharing services 
+like Uber have already made much of the driving redundant. Self driving cars operating in an Uber-like fashion
+might become the transportation du jour of the future. There's a long laundry list of *cui bono* candidates using self driving cars - advertising companies, software sellers, hardware sellers etc. On the other hand, there are clear losers or at least it appears like that - Truck drivers, existing car companies. Self driving cars are boon for urban transportation and fleet management, but any technology that succeeds in the long run should be pareto efficient or at least zero sum.
 
