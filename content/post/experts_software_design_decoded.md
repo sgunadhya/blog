@@ -23,6 +23,10 @@ at one place.
 </div>
 
 <div class="col-md-offset-3">
+{{< tweet 794532428836732928 >}}
+</div>
+
+<div class="col-md-offset-3">
 {{< tweet 794894750688088065 >}}
 </div>
 <div class="col-md-offset-3">
