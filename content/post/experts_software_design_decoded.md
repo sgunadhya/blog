@@ -162,4 +162,14 @@ at one place.
 {{< tweet 814841143573803008 >}}
 </div>
 
+<div class="col-md-offset-3">
+{{< tweet 816653163520475136 >}}
+</div>
 
+<div class="col-md-offset-3">
+{{< tweet 817015522776727552 >}}
+</div>
+
+<div class="col-md-offset-3">
+{{< tweet 817377935166504960 >}}
+</div>
