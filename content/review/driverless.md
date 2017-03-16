@@ -19,13 +19,13 @@ type = "review"
 +++
 
 
-Driverless cars are autonomous robots which drive cars with human-like precision, call them robotic chauffers if you will.
+Driverless cars are autonomous robots which drive cars with human-like precision, call them robotic chauffeurs if you will.
 Imagine a world where cars drive themselves, pick you up from any place, and then leave you to your
 destination; and then imagine a fleet of cars coordinating among themselves transporting materials and people
 without any human intervention. These cars take the shortest path considering road conditions, traffic situation and any other
 disruptions by being preemptively notified. Driverless cars or Self Driving cars which caught our fantasy few years ago are a reality now.
 Google was one of the first companies to build a prototype and iterate over the prototype
-for years. Hod Lipson and Melba Kurman's "Driverless" is an ethnograpical and anthropological study which traces the evolution of Self driving cars from being a public fantasy to a fully realized industrial grade prototypes and models.
+for years. Hod Lipson and Melba Kurman's "Driverless" is an ethnographical and anthropological study which traces the evolution of Self driving cars from being a public fantasy to a fully realized industrial grade prototypes and models.
 
 The idea of self driving cars or at least autonomous transportation has caught public imagination for more than four decades.
 In the early part of 20th century a small scale version of autonomous transportation was on display which caught everyone's fantasy in the day.
@@ -36,12 +36,12 @@ not going to happen.
 
 
 [Brian Arthur](https://en.wikiquote.org/wiki/W._Brian_Arthur) in his *Nature of Technology* illustrates how each technology is a recursive application of other technology.
-Similarly, the technologies which enable self driving car came to fruituin with advances in Robotics, Mechanical Engineering, Hardware and Artificial Intelligence.
+Similarly, the technologies which enable self driving car came to fruition with advances in Robotics, Mechanical Engineering, Hardware and Artificial Intelligence.
 Let's take apart the self driving cars and see how it works. Self driving car is a robot, and like other
 robots it has sensors for instrumenting its environment and actuators, its way to react with the environment.
 The actuators are, of course, the constituents of car like brakes, accelerators et al. A self driving cars uses
-a plethora of sensors to make sense of its environment. [LIDARs](https://en.wikipedia.org/wiki/Lidar) and [SONARs](https://en.wikipedia.org/wiki/Sonar) are used to estimate distances
-between the car and other hurdle. GPS is used for determining current position of the car and its distance from the destination. The single most important
+a plethora of sensors to make sense of its environment. [LIDARs](https://en.wikipedia.org/wiki/Lidar), [RADARs](https://en.wikipedia.org/wiki/Radar) and [SONARs](https://en.wikipedia.org/wiki/Sonar) are used to estimate distances
+between the car and the other hurdles. [GPS receiver](https://en.wikipedia.org/wiki/GPS_navigation_device) is used for determining current position of the car and its distance from the destination. [Inertial Measurement Unit or IMU for short](https://en.wikipedia.org/wiki/Inertial_measurement_unit) is used for measuring the vehicle's inertia and direction. The single most important
 breakthrough which rapidly evolved the self driving car prototype to workable implementation was - [*Deep Learning*](https://en.wikipedia.org/wiki/Deep_learning). Deep Learning is
 an up and coming field in Machine Learning Research which uses Neural Networks to extract patterns from a data set to automate any kind of decision making.
 Hard coding rules in the software which drives the self driving car is not a scalable solution. The deluge of data from the Internet has enabled companies to develop
