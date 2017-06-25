@@ -1,8 +1,8 @@
 +++
-asins = "220262034670"
+asins = "B01EUBT7LC"
 author = "Sushant Srivastava"
 bookauthor = "Hugh Gusterson"
-bookimageurl = "/driverless.jpg"
+bookimageurl = "https://mitpress.mit.edu/sites/default/files/imagecache/multimedia_thumbnail/Gusterson%20cover.jpg"
 bookname = "Drone: Remote Control Warfare"
 bookpublisher = "The MIT Press"
 bookrating = 8
