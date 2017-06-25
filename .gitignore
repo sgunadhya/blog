@@ -7,4 +7,6 @@ downloads/
 eggs/
 *.pid
 public/
+.idea/
+*.iml
 
