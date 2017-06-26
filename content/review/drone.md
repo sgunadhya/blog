@@ -17,3 +17,14 @@ title = "Drone: Remote Control Warfare"
 type = "review"
 
 +++
+
+> The Rocket man had it coming, the old man didn't.
+
+* Martin Scorsese's Silence God's Point of View
+* Drone Warfare has brought a paradigm shift in the way War operates.
+** Asymmetry 
+** War is almost like a day-job
+** Harder than operating a regular plane, you have to be cognizant of data, chats and the angle of view
+** No sense of espirit de corps
+** The psychological torque created by oscillations between the domestic life and the ordeals of being in a war zone.
+** The question of Valor
