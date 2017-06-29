@@ -61,7 +61,7 @@ challenge that the informants try to exact revenge on locals for their wrongs.
 Then, there is the question of valor. The U.S. Air Force calls the drones - Remotely Piloted Aircrafts, but the drone
 operators find themselves hard to get promoted despite doing their jobs well. They are often berated as "Cubicle Warriors"
 or "combatants who do not face any threats". The drone strikes are widely considered to be cowardly in the middle-east.
-The drone operators do not share the same camaraderie, the *espirit de corps*, which natural develops among the 
+The drone operators do not share the same camaraderie, the *espirit de corps*, which naturally develops among the 
 soldiers in a battlefield.
 
 Drone do not evoke severe criticism from the local populace, at least in the U.S. Part of the reason is that 
