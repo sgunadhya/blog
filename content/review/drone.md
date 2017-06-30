@@ -64,7 +64,7 @@ or "combatants who do not face any threats". The drone strikes are widely consid
 The drone operators do not share the same camaraderie, the *espirit de corps*, which naturally develops among the 
 soldiers in a battlefield.
 
-Drone do not evoke severe criticism from the local populace, at least in the U.S. Part of the reason is that 
+Drones do not evoke severe criticism from the local populace, at least in the U.S. Part of the reason is that 
 the troops do not need to be deployed and the personnel is available in the native country, the psychological
 torque notwithstanding. The author suggests that because of the asymmetry the drone warfare should not be called
 a war but torture. Like torture the drone operations involves a unilateral infliction of pain.
@@ -72,6 +72,6 @@ a war but torture. Like torture the drone operations involves a unilateral infli
 Drones are socio-technical apparatus. In a recent [uplifting news](https://factordaily.com/iisc-bangalore-drones-seeds-forests-karnataka/) drones were used in re-seeding an entire forest.
 Asymmetric drone warfare is the reality of today's times and this book throws light on the pressing issues.
 
-P.S. I saw the movie often referenced in this book - ["Good Kill"](https://en.wikipedia.org/wiki/Good_Kill) where Ethan Hawkes plays an drone operator 
+P.S. I saw the movie often referenced in this book - ["Good Kill"](https://en.wikipedia.org/wiki/Good_Kill) where Ethan Hawke plays an drone operator 
 who undergoes the same turmoil and the "psychological torque". It is a good companion piece to this book.
 
