@@ -54,6 +54,7 @@ insurgents.
 3. **Double Tap Strikes** are the strikes where a drone continues to circle over a site after the first strike and launches
 further attacks on people who come to the aid of the victims of the initial strike. This practice was popular with
 the Hamas.
+
 As is evident, in each of these strikes there are huge scopes of misjudgements. Over-reliance on the informants poses its own
 challenge that the informants try to exact revenge on locals for their wrongs. 
 
@@ -65,7 +66,7 @@ The drone operators do not share the same camaraderie, the *espirit de corps*, w
 soldiers in a battlefield.
 
 Drones do not evoke severe criticism from the local populace, at least in the U.S. Part of the reason is that 
-the troops do not need to be deployed and the personnel is available in the native country, the psychological
+the troops do not need to be deployed in a foreign land and the personnel is available in the native country, the psychological
 torque notwithstanding. The author suggests that because of the asymmetry the drone warfare should not be called
 a war but torture. Like torture the drone operations involves a unilateral infliction of pain.
 
