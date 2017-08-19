@@ -16,7 +16,9 @@ few days I have been trying to wrap my head around the new ecosystem by lurking
 in the subreddits, slack channels and by general good old-fashioned googling. Here's
 a run down of the five essential libraries or patterns that are in vogue.
 
-##Dagger 2
+Dagger 2
+---------
+
 [Dagger 2](https://google.github.io/dagger/) is a library for Dependency Injection. The concept of Dependency Injection
 took Java Enterprise world by storm in the last decade. It is the Star Wars of the Java
 Concepts in that it spawned many merchs, sequels, I mean libraries, consultancies.
@@ -35,7 +37,9 @@ a bit steep.
 Note: Dagger 1 or Dagger was developed by Square. Dagger 2 is a fork by Google and is
 actively maintained by folks at Google.
 
-##RxJava
+RxJava
+------
+
 [RxJava](https://github.com/ReactiveX/RxJava) has taken the Java World by storm. Rx and its reactive extensions enable
 Functional Reactive Programming in the language of your choice. RxJava has received
 a lot of love from the Java community. Android is the natural place for implementing
@@ -43,18 +47,21 @@ FRP. Many libraries use RxJava as well. [Retrofit](http://square.github.io/retro
 uses RxJava in the backend. [Retrolambda](https://github.com/orfjackal/retrolambda) is a great companion library because it helps in writing lambda expressions in the subscribe and observe apis resulting in succinct
 and fluent code.
 
-##Butterknife
+Butterknife
+-----------
 [Butterknife](http://jakewharton.github.io/butterknife/) uses dependency injection to inject widgets into your code so that your View
 code is not littered with *findViewByIds*. Doesn't sound much but I have grown to love
 this library so much so that the first refactor that I do on an old source code is using Butterknife
 to inject the views. It is one of those libraries that you thought you didn't need it until you used and now cannot let go. It is the fidget-spinner of Android Libraries.
 
 
-##Glide
+Glide
+-----
 [Glide](https://github.com/bumptech/glide) is an Android Library for loading images. It does what it says on the tin,
 only better than the alternatives like Picasso.
 
-##MVP
+MVP
+----
 MVP stands for Model View Presenter Pattern. It is a pattern that most developers
 are gravitating towards now a days. As your Android Application grows adopting
 this pattern will help in structuring the application this way. The pattern takes
