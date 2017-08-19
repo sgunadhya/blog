@@ -69,5 +69,5 @@ a leaf from the MVC pattern and recommends separating the view layer from the
 model layer. In the beginning I thought this was a bit much and takes a lot of
 work but persevering helped because many developers are using this pattern to  structure their apps.
 
-Other sources for learning are downloading Google Android Archiecture sample apps. You can also look
+Other sources for learning are downloading Google Android Architecture sample apps. You can also look
 at the trending repositores in Gitub for Java, a majority of them currently are Android Libraries or sample applications because, let's face it, Android is where it's at.
