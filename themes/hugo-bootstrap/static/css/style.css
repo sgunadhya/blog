@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url('https://rsms.me/interface/interface.css');
+
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -8,7 +9,7 @@ html {
 }
 body {
     /* Margin bottom by footer height */
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Interface', 'sans-serif';
     margin-bottom: 60px;
 }
 .footer {
