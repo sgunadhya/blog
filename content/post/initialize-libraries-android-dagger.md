@@ -17,7 +17,7 @@ to be inside the *applicationInjector* method in the class which extends *Dagger
 
 As an example, here I initialize Admob inside the *applicationInjector* like so:
 
-{{< highlight java >}}
+```Java
 @Override
 protected AndroidInjector<? extends DaggerApplication> applicationInjector() {
     AppComponent appComponent = DaggerAppComponent.builder().application(this).build();
@@ -25,7 +25,7 @@ protected AndroidInjector<? extends DaggerApplication> applicationInjector() {
     MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713");
     return appComponent;
 }
-{{< / highlight >}}
+```
 
 Perhaps you can extract a private method to initialize library code like so:
 
