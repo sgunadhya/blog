@@ -1,4 +1,5 @@
 baseurl = ""
+actualurl = "https://www.ssushant.in"
 languageCode = "en-us"
 title = "Random tech excursions"
 theme = "hugo-bootstrap"
