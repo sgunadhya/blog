@@ -41,14 +41,15 @@ Marvin is a toolkit to implement Microservices which use protocol buffers or JSO
    You can then add custom middlewares, routing and Endpoints by implementing the methods from the interface.
 * Write the usual `app.yaml` file for deploying the project on GAE. In the `main` function, bootstrap the service like so:
 
-	```Go
+	```
 	func main() {
 		marvin.Init(api.NewService())
 		appengine.Main()
 	}
 	```
 * Use the local setup to test your microservice
-	```bash
+
+	```
 	dev_appserver.py server/app.yml
 	```
 	
