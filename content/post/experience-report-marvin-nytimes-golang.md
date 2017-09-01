@@ -18,12 +18,19 @@ By way of documentation, the repository has a sample application, `readinglist`,
 The `README` page has bit description about the files. It took me a while to understand the machinations because
 I had not worked on Gizmo earlier.
 
-Marvin is a toolkit to implement Microservices which use protocol buffers or JSON as their communication format. First off, Marvin expects an [OpenAPI](https://www.openapis.org/) specification file. You can generate protobuf file which generates `.proto` file. [`openapi2proto`](https://github.com/NYTimes/openapi2proto) is another open source project from NYTimes which comes handy here.  You can then use the `.proto` file to generate Go code for services. Marvin `MixServices` interface gives you endpoints to implement protocol buffer and JSON Web Services. Here's a run-down of the workflow:
+Marvin is a toolkit to implement Microservices which use protocol buffers or JSON as their communication format. First off, Marvin expects an [OpenAPI](https://www.openapis.org/) specification file. You use the spec file to generate a `.proto` file. [`openapi2proto`](https://github.com/NYTimes/openapi2proto) is another open source project from NYTimes which comes handy here.  You can then use the `.proto` file to generate Go code for services. Marvin's `MixService` interface gives you endpoints to implement protocol buffer and JSON Web Services.Here's a run-down of the workflow:
 
 *  Write the `openapi` spec in a file, say `service.yaml`
 *  Use `openapi2proto` to generate the service specification in Protobuf. The protobuf file has domain specific models from the openapi definitions.
+   ```
+   openapi2proto -spec service.yaml > service.proto
+   ```
+
 *  Generate Go code for the service using protobuf compiler
-*  Implement the service method, usually it is `marvin.MixService` which is an interface for implementing both `json` and `protobuf` services. I discovered `impl`, a utility to generate stub implementation for any interface. You can generate the stub implementation like so:
+   ```
+   protoc --go _out= . service.proto
+   ```
+*  Implement the service method, usually it is `marvin.MixService` which is an interface for implementing both `json` and `protobuf` services. I discovered [`impl`](https://github.com/josharian/impl), a utility to generate stub implementation for any interface. You can generate the stub implementation like so:
    ```
    impl 's Service' github.com/NYTimes/marvin.MixService
    ```
@@ -31,15 +38,12 @@ Marvin is a toolkit to implement Microservices which use protocol buffers or JSO
 * Write the usual `app.yaml` file for deploying the project on GAE. In the `main` function, bootstrap the service like so:
 
 	```Go
-
 	func main() {
 		marvin.Init(api.NewService())
-		log.Print("hello initialization")
 		appengine.Main()
 	}
-
 	```
-* Use the local setup to test
+* Use the local setup to test your microservice
 	```bash
 	dev_appserver.py server/app.yml
 	```
@@ -54,4 +58,4 @@ the spec file. To sum up:
 * It'd be great if the tool also generated stub implementation for the endpoints using the `paths` information from 
 the `openapi` spec file.
 
-{{<figure src="/experience-report-marvin-golang-small.jpg" attr="" class="col-md-offset-3" attr="Experience Report">}}
+{{<figure src="/experience-report-marvin-golang-small.jpg"  attr="Experience Report">}}
