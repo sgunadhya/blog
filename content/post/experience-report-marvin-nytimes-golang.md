@@ -12,7 +12,7 @@ type = "post"
 
 NYTimes recently open-sourced [Marvin](https://github.com/NYTimes/marvin), a library for building Microservices on Google AppEngine. The project is based off their earlier library [Gizmo](https://github.com/NYTimes/gizmo).
 I was looking for a similar project to implement some of my own microservices, so I thought
-that it was an opportune moment to give this toolkit a shot. 
+that it was an opportune moment to give this toolkit a shot.
 
 By way of documentation, the repository has a sample application, `readinglist`, and its documentation is lacking.
 The `README` page has bit description about the files. It took me a while to understand the machinations because
@@ -32,12 +32,13 @@ Marvin is a toolkit to implement Microservices which use protocol buffers or JSO
    ```
    protoc --go _out= . service.proto
    ```
-   
+
 *  Implement the service method, usually it is the `marvin.MixService` which is an interface for implementing both `json` and `protobuf` services. I discovered [`impl`](https://github.com/josharian/impl), a utility to generate stub implementation for any interface. You can generate the stub implementation like so:
 
    ```
    impl 's Service' github.com/NYTimes/marvin.MixService
    ```
+   
    You can then add custom middlewares, routing and Endpoints by implementing the methods from the interface.
 * Write the usual `app.yaml` file for deploying the project on GAE. In the `main` function, bootstrap the service like so:
 
@@ -47,20 +48,21 @@ Marvin is a toolkit to implement Microservices which use protocol buffers or JSO
 		appengine.Main()
 	}
 	```
+
 * Use the local setup to test your microservice
 
 	```
 	dev_appserver.py server/app.yml
 	```
-	
-It took me a while to figure out the workflow. I liked the openapi-first approach for developing Microservice APIs. 
+
+It took me a while to figure out the workflow. I liked the openapi-first approach for developing Microservice APIs.
 While `openapi2proto` generates the domain objects from the definitions file, it discards the endpoints information,
 which you have to implement separately. It'd be nice to generate stub implementation from the `paths` section of
 the spec file. To sum up:
 
 * You can generate protobuf and JSON webservices is a huge plus.
 * You can generate neat documentation from `swagger-gen` tool for your APIs.
-* It'd be great if the tool also generated stub implementation for the endpoints using the `paths` information from 
+* It'd be great if the tool also generated stub implementation for the endpoints using the `paths` information from
 the `openapi` spec file.
 
 {{<figure src="/experience-report-marvin-golang-small.jpg"  attr="Experience Report">}}
