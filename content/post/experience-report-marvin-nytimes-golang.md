@@ -22,15 +22,19 @@ Marvin is a toolkit to implement Microservices which use protocol buffers or JSO
 
 *  Write the `openapi` spec in a file, say `service.yaml`
 *  Use `openapi2proto` to generate the service specification in Protobuf. The protobuf file has domain specific models from the openapi definitions.
+
    ```
    openapi2proto -spec service.yaml > service.proto
    ```
 
-*  Generate Go code for the service using protobuf compiler
+*  Generate Go code for the service using the protobuf compiler
+
    ```
    protoc --go _out= . service.proto
    ```
-*  Implement the service method, usually it is `marvin.MixService` which is an interface for implementing both `json` and `protobuf` services. I discovered [`impl`](https://github.com/josharian/impl), a utility to generate stub implementation for any interface. You can generate the stub implementation like so:
+   
+*  Implement the service method, usually it is the `marvin.MixService` which is an interface for implementing both `json` and `protobuf` services. I discovered [`impl`](https://github.com/josharian/impl), a utility to generate stub implementation for any interface. You can generate the stub implementation like so:
+
    ```
    impl 's Service' github.com/NYTimes/marvin.MixService
    ```
