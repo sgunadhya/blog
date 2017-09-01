@@ -54,4 +54,4 @@ the spec file. To sum up:
 * It'd be great if the tool also generated stub implementation for the endpoints using the `paths` information from 
 the `openapi` spec file.
 
-{{<figure src="/experience-report-marvin-golang.jpg" attr="" class="col-md-offset-3" attr="Experience Report">}}
+{{<figure src="/experience-report-marvin-golang-small.jpg" attr="" class="col-md-offset-3" attr="Experience Report">}}
