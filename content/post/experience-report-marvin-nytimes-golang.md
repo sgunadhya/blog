@@ -2,7 +2,7 @@
 author = "Sushant Srivastava"
 date = "2017-09-01T02:50:27+05:30"
 description = "Experience Report - NYTimes Marvin for building Microservices on Appengine"
-draft = true
+draft = false
 keywords = ["golang", "marvin", "experience-report"]
 tags = ["golang", "marvin", "experience-report"]
 title = "Experience Report - NYTimes Marvin for building Microservices on Appengine"
