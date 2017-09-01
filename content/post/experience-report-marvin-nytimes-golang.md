@@ -38,8 +38,9 @@ Marvin is a toolkit to implement Microservices which use protocol buffers or JSO
    ```
    impl 's Service' github.com/NYTimes/marvin.MixService
    ```
-   
+
    You can then add custom middlewares, routing and Endpoints by implementing the methods from the interface.
+
 * Write the usual `app.yaml` file for deploying the project on GAE. In the `main` function, bootstrap the service like so:
 
 	```
