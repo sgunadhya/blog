@@ -26,6 +26,20 @@ type = "review"
 ** Political movements of the 90s
 ** 90s subculture 
 
+An overarching idea of *Snow Crash* is the idea of a virus.
+Virus, as you know, might mean one of these things - 
+
+* A biological microbe which spreads diseases
+* In the context of computers and networking, a Virus is a computer program that replicates itself many times over on a host machines and stalls any useful work
+
+Neal borrows ideas from *Memetics* and extends the idea of Virus in an abstract fashion. A Virus is an abstract concept which spreads itself through any population.
+The medium of spread could be anything - in the context of a viral disease it is a human body and human contact; in the context of a networked computer it is the operating
+system. When we say that a particular idea or a social media post has become viral, we are talking about Virus in the abstract term. Mass Hysteria is a spread of a viral 
+idea which spreads FUD in the people. A fad is a virus which spread through the population using mass media. A law is a viral idea which is spread through the established
+machinery of Governance. A language is also a medium for a Viral breakout. Neal goes a step further and points out that the mythical struggle between good and evil is the
+eternal struggle of mankind to prevent the spread of Virus or a Viral outbreak.
+
+
 * Overarching idea of a virus
 ** Sumerian Myth
 ** Virus in the body
@@ -36,6 +50,3 @@ type = "review"
 * Hacking and its subculture
 ** Avataars, Jacked in, Network programming, graphics, daemons as utility programs
 ** valley culture
-
-
-
