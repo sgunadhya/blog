@@ -37,15 +37,16 @@ The medium of spread could be anything - in the context of a viral disease it is
 system. When we say that a particular idea or a social media post has become viral, we are talking about Virus in the abstract term. Mass Hysteria is a spread of a viral 
 idea which spreads FUD in the people. A fad is a virus which spread through the population using mass media. A law is a viral idea which is spread through the established
 machinery of Governance. A language is also a medium for a Viral breakout. Neal goes a step further and points out that the mythical struggle between good and evil is the
-eternal struggle of mankind to prevent the spread of Virus or a Viral outbreak.
+eternal struggle of mankind to prevent the spread of Virus or a Viral outbreak. 
 
 
-* Overarching idea of a virus
+
 ** Sumerian Myth
-** Virus in the body
-** Virus in the computers linked to a network
-** Viral ideas, memetics
-** Good vs Evil as struggle between Virus and Human protection
+
+What stands out in Neal's writing is that the abstraction or analogies. He makes extensive use of his knowledge of computers and compare their operations to the workings
+of psyche. So, language is the operating system or the software which is run on the hardware of our brain. And just like an operating system can run different programs using 
+the hardware, language can mould our worldview and can be used to run malicious or helpful programs.
+
 
 * Hacking and its subculture
 ** Avataars, Jacked in, Network programming, graphics, daemons as utility programs
