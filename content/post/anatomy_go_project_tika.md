@@ -56,6 +56,21 @@ Let start with the Server component. If you peruse the file `server.go`, you wil
 }
  
  ```
+ 
+ `os/exec.CommandContext` is the bedrock of this component. This context-enabled API is used to create a new server process.
+ 
  `jar`, `url`, `port`, `hostname` are the usual suspects; these are the options to locate and run the server. `cancel` is a something dissimilar. `cancel` is a function which when called cancels the execution of the context. This is a common pattern provided by the APIs which
  support passing in a `context`. By returning a `cancel` function, the API offers an opportunity to the calling function to suspend the execution. You can find more information about using contexts in the execellent [blog post](https://blog.golang.org/context).
+
+ Secondly, APIs like `WithHostname` and `WithPort` provide a builder-like pattern to pass options to the `NewServer` API. The `NewServer`
+ api is a factory method to create a new *instance* of a server. This is another pattern to note. Almost all the package provide
+ a *New* or *Make* like APIs to create new **objects** of interest.
+
+`waitForStart` is a utility function which creates a new client and makes a sample request to make sure that the server is responding to
+client calls and is ready for business. `waitForStart` passes a new `context` with  a timeout set. This again makes use of the `context.WithTimeOut` api to create the context.
+
+ 
+ 
+ 
+ 
 
