@@ -2,7 +2,7 @@
 author = "Sushant Srivastava"
 date = "2017-10-04T02:50:27+05:30"
 description = "Decontructing a Golang Project - go-tika"
-draft = false
+draft = true
 keywords = ["golang", "libraries", "analysis"]
 tags  = ["golang", "libraries", "analysis"]
 title = "Deconstructing a Golang Project - go-tika"
@@ -81,7 +81,4 @@ Let start with the Server component. If you peruse the file `server.go`, you wil
 client calls and is ready for business. `waitForStart` passes a new `context` with  a timeout set. This again makes use of the `context.WithTimeOut` api to create the context.
 
 Now, let's see how the Client component is organized. 
- 
- 
- 
 
