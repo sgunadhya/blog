@@ -2,12 +2,13 @@
 author = "Sushant Srivastava"
 date = "2017-10-04T02:50:27+05:30"
 description = "Decontructing a Golang Project - go-tika"
-draft = true
+draft = false
 keywords = ["golang", "libraries", "analysis"]
 tags  = ["golang", "libraries", "analysis"]
 title = "Deconstructing a Golang Project - go-tika"
 topics = ["golang", "libraries", "analysis"]
 type = "post"
+slug = "deconstructing-go-tika"
 +++
 
 I am learning Golang, and I try to analyze open source Golang repositories to learn patterns and idiomatic usage. I came across the library [go-tika]() by a team at Google, and I found it to be a perfect fit for analysis because it is a small-enough but not a toy project. I have decided to document what I learn for posterity and to gather feedback from people who are already good at Golang.
@@ -69,7 +70,7 @@ Let start with the Server component. If you peruse the file `server.go`, you wil
 `waitForStart` is a utility function which creates a new client and makes a sample request to make sure that the server is responding to
 client calls and is ready for business. `waitForStart` passes a new `context` with  a timeout set. This again makes use of the `context.WithTimeOut` api to create the context.
 
- 
+Now, let's see how the Client component is organized. 
  
  
  
