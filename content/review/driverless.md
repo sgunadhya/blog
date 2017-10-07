@@ -72,4 +72,4 @@ might become the transportation du jour of the future. There's a long laundry li
 
 All in all, I found the book to be fascinating and insightful. Two thumbs up.
 
-{{<figure src="/driverless_notes1.png" class="col-md-offset-2" }}
+{{< figure src="/driverless_notes1.png" class="col-md-offset-2" >}}
