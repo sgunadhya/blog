@@ -11,48 +11,48 @@ disqusShortname = "oromin"
 github = "mitra-varuna"
 
 [permalinks]
-    post = "/:year/:month/:day/:slug/"
-    code = "/:slug/"
-	review = "/:year/:month/:day/:slug/"
+post = "/:year/:month/:day/:slug/"
+code = "/:slug/"
+review = "/:year/:month/:day/:slug/"
 
 [taxonomies]
-    tag = "tags"
-    topic = "topics"
-	review = "reviews"
+tag = "tags"
+topic = "topics"
+review = "reviews"
 
 [author]
-    name = "Sushant Srivastava"
-	Handle = "ssushant"
-	FirstName = "Sushant"
-	LastName = "Srivastava"
-	Location = "Bangalore, India"
-	FlickrID = "26172158@N00"
+name = "Sushant Srivastava"
+Handle = "ssushant"
+FirstName = "Sushant"
+LastName = "Srivastava"
+Location = "Bangalore, India"
+FlickrID = "26172158@N00"
 
 [params]
-    twitter = "ssushant"
-    googleAnalytics = "UA-62976890-1"
-    highlight = "default"
-	github = "mitra-varuna"
-	RSSEnabled = true
-    RSSSections = [ "Posts" ]
-	linkedin = "ssushant"
-	googleplus = "112420258095319874956"
+twitter = "ssushant"
+googleAnalytics = "UA-62976890-1"
+highlight = "default"
+github = "mitra-varuna"
+RSSEnabled = true
+RSSSections = [ "Posts" ]
+linkedin = "ssushant"
+googleplus = "112420258095319874956"
 
 
 [[menu.main]]
-  name = "Posts"
-  weight = 1
-    identifier = "posts"
-  url = "/posts/"
+name = "Posts"
+weight = 1
+identifier = "posts"
+url = "/posts/"
 
 [[menu.main]]
-    name = "Tags"
-    weight = 2
-    identifier = "tags"
-    url = "/tags/"
+name = "Tags"
+weight = 2
+identifier = "tags"
+url = "/tags/"
 
 [[menu.main]]
-    name = "Reviews"
-    weight = 3
-    identifier = "reviews"
-    url = "/review/"
+name = "Reviews"
+weight = 3
+identifier = "reviews"
+url = "/review/"

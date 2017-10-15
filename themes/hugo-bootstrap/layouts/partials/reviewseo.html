@@ -1,0 +1,28 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Product",
+  "image": "{{ .Params.bookimageurl }}",
+  "name": "{{ .Params.bookname }}",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": {{ .Params.bookrating }},
+	  "bestRating" : 10,
+	  "worstRating" : 0
+    },
+    "name": "{{ .Params.bookreview }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ .Params.bookauthor }}"
+    },
+    "datePublished": "{{ .Date.Format "2006-01-02" }}",
+    "reviewBody": "{{ .Description }}",
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ .Params.bookpublisher }}"
+    }
+  }
+}
+</script>

@@ -9,6 +9,8 @@
   {{ partial "base/metas" . }}
   {{ partial "base/imports" . }}
   {{ partial "base/pixeltracking" . }}
+  {{ partial "base/seoschema" . }}
+  {{ partial "base/pixeltracking" . }}
 </head>
 <body{{ with .Site.Params.theme }} class="{{ . }}"{{ end }}>
     {{ partial "base/header" . }}
