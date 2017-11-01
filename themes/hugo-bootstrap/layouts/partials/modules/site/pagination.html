@@ -1,4 +1,4 @@
-{{ $baseurl := .Site.BaseURL }}
+{{ $baseurl := .Site.ActualURL }}
 {{ $pag := .Paginator }}
 {{ if gt $pag.TotalPages 1 }}
 <li {{ if not $pag.HasPrev }} class="disabled" {{ end }}>
