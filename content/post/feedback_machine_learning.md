@@ -54,3 +54,5 @@ are good metrics for monitoring how effective the machine learning
 implementation is. Precision is the total percentage of true positives
 in our training data. Recall is the ratio of true positives to true
 positive plus false negatives.
+
+EDIT: I realized that this blog post is a bit dated. I came across this [blog post](https://medium.com/@keeper6928/how-to-unit-test-machine-learning-code-57cf6fd81765?imm_mid=0f7a0a&cmp=em-data-na-na-newsltr_20171101) about unit testing machine learning code. The article has serious-good advice on testing neural networks.
