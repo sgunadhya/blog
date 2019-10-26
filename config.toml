@@ -8,6 +8,7 @@ paginate = 10
 paginatePath = "page"
 disqusShortname = "oromin"
 github = "mitra-varuna"
+googleAnalytics = "UA-62976890-1"
 
 [permalinks]
 post = "/:year/:month/:day/:slug/"
