@@ -19,7 +19,7 @@ language. You specify your variables, objective function, and constraints in Mat
 an input, and the solver outputs a solution if the solution exists. The constraints and the objective function are specified using a math-like
 notation for inequalities. Here is a sample MathProg specification ::
 
-```ampl
+{{< highlight ampl >}}
   set Items;
   param weight{t in Items};
   param value{t in Items};
@@ -31,14 +31,14 @@ notation for inequalities. Here is a sample MathProg specification ::
   s.t. knap_vol    : sum{t in Items} take[t] * volume[t] <= 0.25;
 
 
-```
+ {{< / highlight >}}
 
 This is a specification for a knapsack problem. We are maximizing the value of the items in the knapsack subject to the constraint the total weight does exceed 400.
 The expression `knap_value` is the objective function which is the value of the items. The expression `knap_weight` is the constraint.
 
 Next, we'll need to provide the `.dat` file as data. We can structure the file like so:
 
-```
+{{< highlight apl >}}
 data;
 
 param : Items   : weight   value     volume :=
@@ -48,13 +48,13 @@ param : Items   : weight   value     volume :=
 ;
 end;
 
-```
+ {{< / highlight >}}
 
 We can solve the Knapsack problem like so:
 
-```shell
-glpsol --model knapsack.mod --data knapsack.dat -o result
-```
+ {{< highlight bash >}}
+    glpsol --model knapsack.mod --data knapsack.dat -o result
+ {{< / highlight >}}
 
 The file `result` produced as a result of the `glpsol` command will have the details about the solution, if a solution exists.
 

@@ -43,12 +43,13 @@ Marvin is a toolkit to implement Microservices which use protocol buffers or JSO
 
 * Write the usual `app.yaml` file for deploying the project on GAE. In the `main` function, bootstrap the service like so:
 
-	```
+    {{< highlight go "linenos=table" >}}
+
 	func main() {
 		marvin.Init(api.NewService())
 		appengine.Main()
-	}
-	```
+    }
+    {{< / highlight>}}
 
 * Use the local setup to test your microservice
 

@@ -6,7 +6,6 @@ theme = "hugo-bootstrap"
 
 paginate = 10
 paginatePath = "page"
-
 disqusShortname = "oromin"
 github = "mitra-varuna"
 
@@ -22,11 +21,6 @@ review = "reviews"
 
 [author]
 name = "Sushant Srivastava"
-Handle = "ssushant"
-FirstName = "Sushant"
-LastName = "Srivastava"
-Location = "Bangalore, India"
-FlickrID = "26172158@N00"
 
 [params]
 twitter = "ssushant"
@@ -37,22 +31,31 @@ RSSEnabled = true
 RSSSections = [ "Posts" ]
 linkedin = "ssushant"
 googleplus = "112420258095319874956"
+disqusShortname = "orom.in"
 
 
-[[menu.main]]
-name = "Posts"
-weight = 1
-identifier = "posts"
-url = "/posts/"
+[menu]
+    [[menu.main]]
+    name = "Posts"
+    weight = 1
+    identifier = "posts"
+    url = "/post/"
 
-[[menu.main]]
-name = "Tags"
-weight = 2
-identifier = "tags"
-url = "/tags/"
+    [[menu.main]]
+    name = "Tags"
+    weight = 2
+    identifier = "tags"
+    url = "/tags/"
 
-[[menu.main]]
-name = "Reviews"
-weight = 3
-identifier = "reviews"
-url = "/review/"
+    [[menu.main]]
+    name = "Reviews"
+    weight = 3
+    identifier = "reviews"
+    url = "/review/"
+[social]
+  # Coding Communities
+  github           = "mitra-varuna"
+  # Visual Art Communities
+  flickr           = ""
+  # Social Networks
+  instagram        = "sushant_post_cibum" # https://www.instagram.com/flowartsde/

@@ -13,9 +13,10 @@ If you need to extract the public key from your
 format certificate file, you can use the `ssh-keygen` command for this
 like so:
 
-``` {.sourceCode .bash}
-ssh-keygen -f certificate.pem -y
-```
+{{< highlight bash >}}
+    ssh-keygen -f certificate.pem -y
+{{< / highlight >}}
+
 
 where `certificate.pem` is your pem file. This command will output the
 public key on `stdout`.

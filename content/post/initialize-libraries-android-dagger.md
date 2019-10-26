@@ -16,8 +16,7 @@ any object. This is not a factory method. A convenient place that I found happen
 to be inside the *applicationInjector* method in the class which extends *DaggerApplication*.
 
 As an example, here I initialize Admob inside the *applicationInjector* like so:
-
-```Java
+{{< highlight java >}}
 @Override
 protected AndroidInjector<? extends DaggerApplication> applicationInjector() {
     AppComponent appComponent = DaggerAppComponent.builder().application(this).build();
@@ -25,11 +24,11 @@ protected AndroidInjector<? extends DaggerApplication> applicationInjector() {
     MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713");
     return appComponent;
 }
-```
+ {{< / highlight >}}
 
 Perhaps you can extract a private method to initialize library code like so:
 
-```Java
+{{< highlight java >}}
 @Override
 protected AndroidInjector<? extends DaggerApplication> applicationInjector() {
     AppComponent appComponent = DaggerAppComponent.builder().application(this).build();
@@ -41,7 +40,7 @@ protected AndroidInjector<? extends DaggerApplication> applicationInjector() {
 private void initializeLibraries() {
     MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713");
 }
-```
+ {{< / highlight >}}
 
 and you can conveniently place the initialize snippets inside the *initializeLibraries*
 method. Now, there might be a better place to place these snippets, maybe inside
