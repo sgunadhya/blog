@@ -1,0 +1,9 @@
+[submodule "themes/hugo-bootstrap"]
+	path = themes/hugo-bootstrap
+	url = https://github.com/zwbetz-gh/minimal-bootstrap-hugo-theme.git
+[submodule "themes/hugo-theme-cleanwhite"]
+	path = themes/hugo-theme-cleanwhite
+	url = https://github.com/zhaohuabing/hugo-theme-cleanwhite.git
+[submodule "themes/bootstrap-bp-hugo-theme"]
+	path = themes/bootstrap-bp-hugo-theme
+	url = https://github.com/spech66/bootstrap-bp-hugo-theme.git

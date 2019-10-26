@@ -2,7 +2,7 @@ baseurl = "/"
 actualurl = "https://www.ssushant.in"
 languageCode = "en-us"
 title = "Random tech excursions"
-theme = "hugo-bootstrap"
+theme = "bootstrap-bp-hugo-theme"
 
 paginate = 10
 paginatePath = "page"
