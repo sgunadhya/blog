@@ -4,6 +4,5 @@ pipelines:
   default:
     - step:
         script:
-          - git submodule update --init
           - hugo
           - aws s3 sync --delete public s3://www.ssushant.in --acl public-read
