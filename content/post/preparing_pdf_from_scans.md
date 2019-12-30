@@ -11,13 +11,13 @@ type = "post"
 +++
 First off, the scanned documents that I received from my email were split into
 many documents. Let's square this off right away. Combine multiple pdf documents
-into a single document using the pdfunite command like so:
+into a single document using the `pdfunite` command like so:
 
 ```bash
 	pdfunite sample_* single.pdf
 ```
 
-On Ubuntu the pdfunite command is part of the poppler-utils package. If you
+On Ubuntu the `pdfunite` command is part of the poppler-utils package. If you
 are on Ubuntu, you can install the package using the `apt` command.
 
 ```bash
@@ -27,7 +27,8 @@ are on Ubuntu, you can install the package using the `apt` command.
 Next up, I wanted to create a bookmarked table of contents for the pdf. Doing this
 manually would have taken me a long time. The idea of spending my lazy afternoon
 transcribing pdf documents did not, to put it mildly, excite me. My search led me
-to tesseract, an OCR program that does a wonderful job of extracting text from
+to [tesseract](https://github.com/tesseract-ocr/tesseract),
+an OCR program that does a wonderful job of extracting text from
 images. 
 
 As soon as you decide to use tesseract, you hit another roadblock.
@@ -37,6 +38,7 @@ I installed imagemagick and ran the convert command only to find myself in anoth
 impasse. 
 
 I ran into this problem.
+
 > unable to create temporary file `/some/path` Permission denied @ error/pdf.c/ReadPDFImage/465
 
 On further digging, I realized that the convert command used Ghostscript under the hood. A security update
