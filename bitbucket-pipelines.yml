@@ -1,4 +1,4 @@
-image: karelbemelmans/pipelines-hugo
+image: klakegg/hugo
 
 pipelines:
   default:
