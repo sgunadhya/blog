@@ -25,13 +25,13 @@ Let's try to solve an unconstrained optimization problem - find the minimum of `
 
 First, we load the `JuMP` package like so:
 
-```
+```jl
 using JuMP
 ```
 
 We model the problem:
 
-```
+```jl
 
 using Ipopt
 
