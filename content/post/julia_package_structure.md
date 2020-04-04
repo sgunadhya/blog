@@ -3,8 +3,8 @@ author = "Sushant Srivastava"
 date = "2016-09-10T01:55:45+05:30"
 description = "JuMP DSL for optimization problems"
 draft = false
-keywords = ["linear programming", "optimization"]
-tags = ["linear programming", "optimization"]
+keywords = ["linear programming", "optimization", "julia"]
+tags = ["linear programming", "optimization", "julia"]
 title = "Using Julia for Linear Programming"
 topics = ["optimization"]
 type = "post"
@@ -31,6 +31,7 @@ print(m)
 status = solve(m)
 print(getvalue(take))
 ```
+```bash
 
     Max 3000 take[A] + 1800 take[B] + 2500 take[C]
     Subject to
@@ -42,7 +43,7 @@ print(getvalue(take))
     [B] = 0.0
     [C] = 11.0
 
-
+```
 Few things to notice:
 
 * The syntax is programming language-like. JuMP programs are Julia Programs and therefore they can use Julia's programming language data structures like dictionaries.

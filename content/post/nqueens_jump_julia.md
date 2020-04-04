@@ -29,6 +29,6 @@ solver which solves the Linear Programming problem. The solvers use an algorithm
 the [Simplex Algorithm](http://fourier.eng.hmc.edu/e176/lectures/NM/node32.html) to solve these problems. 
 ## A similar problem - The Confused Queens
 
-I came across a problem which is an antithesis of the original N-Queens Problem
-- The confused Queens problem, or what I would like to call as "Everybody was Chess-fu fighting".
+I came across a problem which is an antithesis of the original N-Queens Problem -
+The confused Queens problem, or what I would like to call as "Everybody was Chess-fu fighting".
 In this problem we have to find an arrangement where all the Queens

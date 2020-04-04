@@ -15,7 +15,7 @@ In a [previous post](https://www.ssushant.in/2016/09/10/using-julia-for-linear-p
 
 To use JuMP's non linear solvers, you'll need to install a non linear solver package, for example `Ipopt`.
 
-```
+```jl
 Pkg.add("Ipopt")
 ```
 
@@ -45,7 +45,7 @@ As you can see, you'll need to pass the custom solver `IpoptSolver` to the model
 Next, we try to find the optimum solution
 
 
-```
+```jl
 solve(m)
 
 ```
@@ -53,7 +53,7 @@ solve(m)
 Here's the output from my workstation:
 
 
-```
+```bash
 This is Ipopt version 3.12.4, running with linear solver mumps.
 NOTE: Other linear solvers might be more efficient (see Ipopt documentation).
 
@@ -105,7 +105,7 @@ From the output, it looks like we found the optimal solution.
 
 To show the value of x at the optimum point, we use the `getvalue` function.
 
-```
+```jl
 julia> getvalue(x)
 162.5
 

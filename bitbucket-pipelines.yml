@@ -1,4 +1,4 @@
-image: jguyomard/hugo-builder
+image: ssushant/pipelines-hugo
 
 pipelines:
   default:
