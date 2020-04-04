@@ -1,4 +1,4 @@
-image: klakegg/hugo
+image: jguyomard/hugo-builder
 
 pipelines:
   default:
