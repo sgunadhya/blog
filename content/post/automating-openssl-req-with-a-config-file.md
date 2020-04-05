@@ -12,12 +12,6 @@ tags = ["openssl", "automation", "pki"]
 +++
 
 
-+++ title = "Automating openssl req with a config file" date =
-"2015-05-26" slug = "automating-openssl-req-with-a-config-file" tags =
-\["openssl", "automation", "pki"\] category = \["automation"\] summary =
-"Automate openssl req using a config file"
-
-+++
 
 The other day I was trying to generate a Certificate Signing Request
 using the `openssl` command . The [openssl](https://www.openssl.org)
@@ -38,11 +32,10 @@ command like so:
 You will then enter an interactive mode where you will need to enter
 details like Country, Organization Unit etc.
 
-To automate this, you can create a INI-style config file `csr.conf` like
-so:
+To automate this, you can create a INI-style config file `csr.conf`.
 
 You can then generate your CSR like so:
 
-``` {.sourceCode .bash}
+```bash
 SERVER=www.orom-staging.in openssl req -nodes -config csr.conf -out orom-staging.in.csr
 ```

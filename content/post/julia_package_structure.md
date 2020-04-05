@@ -47,10 +47,10 @@ print(getvalue(take))
 Few things to notice:
 
 * The syntax is programming language-like. JuMP programs are Julia Programs and therefore they can use Julia's programming language data structures like dictionaries.
-* You can easily integrate the problem in a larger program. It is not straightforwrd to integrate a GLPK based script in a larger program.
+* You can easily integrate the problem in a larger program. It is not straightforward to integrate a GLPK based script in a larger program.
 * JuMP supports a lot of optimization routines, and the syntax for specifying them is similar. There's an advantage learning JuMP's DSL for optimization problems.
 * The expression syntax is MathProg-like, so there is direct mapping from MathProg based GLPK programs to JuMP based DSL when specifying Linear or Mixed Integer programs.
 
-I found that the DSL is easy to learn and I was able to translate the problem in a short time. I defintely see an advantage in learning Julia which is quickly becoming a mainstream language in academic circles overtaking Matlab.
+I found that the DSL is easy to learn and I was able to translate the problem in a short time. I definitely see an advantage in learning Julia which is quickly becoming a mainstream language in academic circles overtaking Matlab.
 
 
