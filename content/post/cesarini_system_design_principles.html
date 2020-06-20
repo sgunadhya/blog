@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>cesarini_system_design_principles.html</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+
+</head>
+
+<body>
+
+[WARNING] This document format requires a nonempty <title> element.
+  Please specify either 'title' or 'pagetitle' in the metadata,
+  e.g. by using --metadata pagetitle="..." on the command line.
+  Falling back to 'Untitled'
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Untitled</title>
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<p>+++ author = “Sushant Srivastava” date = “2016-09-30T17:55:38-04:00” description = “Using Cersarini’s design Guidelines for building a system” draft = true keywords = [“system”, “design”, “principles”] tags = [“system”, “design”, “principles”] title = “cesarini_system_design_principles” topics = [“System Design”] type = “post”</p>
+<p>+++</p>
+{{
+<figure src="/orrery.jpg" attr="" class="col-md-offset-3" attr="Photo from Wikipedia : Faithful photographic reproduction of a two-dimensional, public domain work of art.">
+<p>}}</p>
+<p>1.Split up your system’s functionality into manageable, standalone nodes.</p>
+<ul>
+<li>what is functionality</li>
+<li>what is node</li>
+<li>why standalone</li>
+<li>how to split up</li>
+<li>why split-up</li>
+<li>when split-up</li>
+<li>How did you get this idea to split up your application</li>
+<li>An example about splitting up your application</li>
+<li>A wrong way to split up your application</li>
+<li>Why is it a wrong way, what is the correct way</li>
+</ul>
+<p>2.Choose a distributed architectural pattern.</p>
+<ul>
+<li>Which architectural pattern</li>
+<li>why architectural pattern</li>
+<li>Why this choice</li>
+</ul>
+<p>3.Choose the network protocols your nodes, node families, and clusters will use when communicating with each other.</p>
+<ul>
+<li>How to choose a protocol</li>
+<li></li>
+</ul>
+<p>4.Define your node interfaces, state, and data model.</p>
+<p>4.For every interface function in your nodes, pick a retry strategy.</p>
+<ul>
+<li>What is a retry strategy?</li>
+<li>How to choose a retry strategy</li>
+<li>What happens if you choose a wrong retry strategy</li>
+<li>An example of a good retry strategy</li>
+</ul>
+<p>6.For all your data and state, pick your sharing strategy across node families, clusters, and types, taking into consideration the needs of your retry strategy.</p>
+<ul>
+<li>How is <em>retry strategy</em> dependent on sharing strategy?</li>
+<li>What is sharing strategy?</li>
+<li>how to choose a sharing strategy</li>
+<li>What happens if you choose a wrong sharing strategy</li>
+</ul>
+<p>7.Design your system blueprint, looking at node ratios for scaling up and down.</p>
+<ul>
+<li>What is a node ratio?</li>
+<li>What is a system blueprint</li>
+</ul>
+<p>8.Identify where to apply backpressure and load regulation.</p>
+<p>9.Define your OAM approach, defining system and business alarms, logs, and metrics.</p>
+<p>10.Identify where to apply support automation.</p>
+</body>
+</html>
+
+</body>
+</html>

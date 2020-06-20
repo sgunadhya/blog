@@ -1,5 +1,5 @@
 baseurl = "/"
-actualurl = "https://www.ssushant.in"
+actualurl = "http://www.ssushant.in"
 languageCode = "en-us"
 title = "Random tech excursions"
 theme = "kiera"
@@ -33,7 +33,11 @@ RSSSections = [ "Posts" ]
 linkedin = "ssushant"
 googleplus = "112420258095319874956"
 disqusShortname = "orom.in"
+utterancesRepo = "mitra-varuna/ssushant-comments"                                                                                      
+utterancesIssueTerm = "path"
 
+[blackfriday]
+extensions = ["hardLineBreak"]
 
 [menu]
     [[menu.main]]

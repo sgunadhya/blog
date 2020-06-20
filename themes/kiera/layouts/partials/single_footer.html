@@ -13,7 +13,8 @@
         {{ end }}
     </ul>
 </section>
-    {{ if .Site.DisqusShortname }}
-        {{ partial "disqus" . }}
+    {{ if .Site.Params.UtterancesRepo }}
+        {{ partial "utterances" . }}
     {{ end }}
+
 {{ end }}
