@@ -31,6 +31,23 @@ draft = true
 [B]Confusing
 [T]Long options
 
+```python
+    parser = argparse.ArgumentParser(description='Generate package.xml for metadata export')
+    parser.add_argument('--input', action='store', dest='input', metavar='FILE', help='Input file which has the name of metadata line by line')
+    parser.add_argument('--output', action='store', metavar='FILE', dest='output', help='Generated package.xml file location')
+```
+
+```python
+   lines = [line.strip() for line in fileinput.input(args.input)]
+```
+
+```python
+    try:
+        with open(args.output, 'w') as h:
+            h.write(output)
+    except TypeError:
+        sys.stdout.write(output)
+```
 
 
 
