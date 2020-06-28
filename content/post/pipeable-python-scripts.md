@@ -30,6 +30,21 @@ draft = true
 [A]Long option vs arguments
 [B]Confusing
 [T]Long options
+### Input ###
+
+#### Just Read from `stdin` ####
+
+#### `fileinput` To the Rescue ####
+
+### Output ###
+
+#### Is this Pythonic though? ####
+
+
+### Conclusion ###
+
+
+
 
 ```python
     parser = argparse.ArgumentParser(description='Generate package.xml for metadata export')
