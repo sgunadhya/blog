@@ -48,7 +48,10 @@ This principle became my North star when I emabarked on writing the script.
 #### `fileinput` To the Rescue ####
 
 ### Output ###
+Next, the output. Let us recapitulate our constraints
 
+1. The script following the current script in the pipeline should be able to use the output as its input.
+2. We should be able to write to the file provided using the long-form option
 #### Is this Pythonic though? ####
 
 
