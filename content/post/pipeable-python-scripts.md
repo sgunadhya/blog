@@ -58,9 +58,9 @@ This principle became my North star when I emabarked on writing the script.
 
 
 ```python
-    parser = argparse.ArgumentParser(description='Generate package.xml for metadata export')
-    parser.add_argument('--input', action='store', dest='input', metavar='FILE', help='Input file which has the name of metadata line by line')
-    parser.add_argument('--output', action='store', metavar='FILE', dest='output', help='Generated package.xml file location')
+    parser = argparse.ArgumentParser(description='Script Description')
+    parser.add_argument('--input', action='store', dest='input', metavar='FILE', help='Input file')
+    parser.add_argument('--output', action='store', dest='output', metavar='FILE', help='Output file')
 ```
 
 ```python
@@ -69,8 +69,8 @@ This principle became my North star when I emabarked on writing the script.
 
 ```python
     try:
-        with open(args.output, 'w') as h:
-            h.write(output)
+        with open(args.output, 'w') as output_file:
+            output_file.write(output)
     except TypeError:
         sys.stdout.write(output)
 ```
