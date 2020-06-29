@@ -24,4 +24,9 @@ Sketches and Doodles are low tech prototyping tools for a hunch or for gathering
 feedback from a bunch of folks.
 
 
+When I started my career way back in the noughties, I was a novice. There were
+Enterprise-Architect who would design an enterprise-y blueprint using the Java
+EE technologies. I have seen my fair share of EJBs and
 
+What is clear is the idea that much like software, software architecture is also
+a solution to a class of problems. You can not have a general purpose architecture.

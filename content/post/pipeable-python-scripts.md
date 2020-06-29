@@ -51,8 +51,34 @@ This principle became my North star when I emabarked on writing the script.
 Next, the output. Let us recapitulate our constraints
 
 1. The script following the current script in the pipeline should be able to use the output as its input.
-2. We should be able to write to the file provided using the long-form option
+2. We should be able to write to the file provided using the long-form option.
+
+One can always argue that we can use the redirection operator `>>` to write to the file, but for the
+sake of uniformity, I am not looking into that option.
+
+This is what I came up with after a few tries:
+
+```python
+    try:
+        with open(args.output, 'w') as output_file:
+            output_file.write(output)
+    except TypeError:
+        sys.stdout.write(output)
+```
+
+
+
 #### Is this Pythonic though? ####
+
+Is the code with try-catch block Pythonic? People coming from other languages than Python are skeptical of this code.
+At the outset, this code looks like it does not check for pre-conditions and leaps into computation without any
+safety-harness. Surely, that looks unsafe.
+
+I invoke the doctrine of [***EAFP***.](https://docs.python.org/3.4/glossary.html#:~:text=Easier%20to%20ask%20for%20forgiveness,many%20try%20and%20except%20statements.)
+
+It is easier to ask for forgiveness than permission. `try-and-catch` pattern is the corenerstone of this programming
+style.
+
 
 
 ### Conclusion ###
@@ -70,13 +96,6 @@ Next, the output. Let us recapitulate our constraints
    lines = [line.strip() for line in fileinput.input(args.input)]
 ```
 
-```python
-    try:
-        with open(args.output, 'w') as output_file:
-            output_file.write(output)
-    except TypeError:
-        sys.stdout.write(output)
-```
 
 
 
