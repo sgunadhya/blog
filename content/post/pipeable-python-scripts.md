@@ -9,10 +9,21 @@ author = "Sushant Srivastava"
 draft = true
 +++
 
-* Written Python Scripts
-* Opprtunity to write Python script 
-*[B] Wanted to be pipe-able
-*[T] Looked into internet
+I have written many Python scripts over the course of many years.
+I wrote the scripts for tasks like data cleanup, data extraction,
+integration scripts and what not. In retrospect, the majority of the 
+scripts I wrote were standalone, or custom unix bash scripts glued them
+together. Recently, I had an opportunity to write a Python script which 
+was a part of a larger pipleine of scripts for data transformation. 
+I wanted the script to be used in the pipeline without any custom glue code.
+
+
+Doug McIlroy, the inventor of Unix pipes, had this to say about writing programs 
+in-line with Unix philosophy
+
+> Expect the output of every program to become the input to another, as yet unknown, program. Don't clutter output with extraneous information. Avoid stringently columnar or binary input formats. Don't insist on interactive input.
+
+This principle became my North star when I emabarked on writing the script.
 
 * sys.stdin
 * [B] Issue with Stdin
