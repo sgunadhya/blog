@@ -1,7 +1,7 @@
 +++
 title = "Writing Pipe-able Python Scripts"
 slug = "Writing Pipe-able Python Scripts"
-date = "2020-06-25"
+date = "2020-06-30"
 tags = ["python", "productivity", "script"]
 category = ["python", "productivity", "script"]
 description = "Writing Pipe-able Python Scripts"
