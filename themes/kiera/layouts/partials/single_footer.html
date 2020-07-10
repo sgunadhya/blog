@@ -13,8 +13,6 @@
         {{ end }}
     </ul>
 </section>
-    {{ if .Site.Params.UtterancesRepo }}
-        {{ partial "utterances" . }}
-    {{ end }}
+        {{ partial "graphcomment" . }}
 
 {{ end }}
