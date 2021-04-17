@@ -11,3 +11,4 @@ public/
 *.iml
 
 .DS_Store
+.firebase/
