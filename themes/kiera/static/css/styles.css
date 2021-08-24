@@ -95,7 +95,7 @@ time {
 #container main {
   flex: 1 0 0;
   line-height: 1.5;
-  font-size: 0.97rem;
+  font-size: 1.00rem;
 }
 
 #container main section#home ul {

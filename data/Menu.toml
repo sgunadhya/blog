@@ -1,7 +1,7 @@
 [posts]
     Name = "Posts"
     Title = "Show list of posts"
-    URL = "/post"
+    URL = "/posts"
 
 [tags]
     Name = "Tags"
@@ -10,4 +10,4 @@
 [reviews]
 	Name = "Reviews"
 	Title = "Show list of Reviews"
-	URL = "/review"
+	URL = "/reviews"
