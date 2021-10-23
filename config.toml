@@ -1,7 +1,7 @@
 baseurl = "/"
 actualurl = "http://www.ssushant.in"
 languageCode = "en-us"
-title = "Random tech excursions"
+title = "Random Tech Excursions"
 theme = "kiera"
 
 paginate = 10
@@ -60,7 +60,7 @@ extensions = ["hardLineBreak"]
     url = "/reviews/"
 [social]
   # Coding Communities
-  github           = "mitra-varuna"
+  github           = "sgundadhya"
   # Visual Art Communities
   flickr           = ""
   # Social Networks
