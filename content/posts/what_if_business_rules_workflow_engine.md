@@ -1,4 +1,4 @@
-What if we can use this software stack to build applications:
+# What if we can use this software stack to build applications:
 
 * Why would I use this stack instead of the regular architecture to build apps
 * How do I get started using this?
