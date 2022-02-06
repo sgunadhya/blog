@@ -30,7 +30,7 @@ colorScheme = "congo"
 [params.homepage]
   layout = "custom"
   showRecent = true
-  mainSections = ["samples"]
+  mainSections = ["posts", "reviews"]
 
 [params.list]
   groupByYear = true
@@ -41,6 +41,7 @@ colorScheme = "congo"
   showEdit = false
   editAppendPath = false
   showReadingTime = false
+  sharingLinks =  ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
 
     [[menu.main]]
     name = "Posts"
