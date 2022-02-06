@@ -17,6 +17,7 @@ summaryLength = 0
 paginate = 10
 paginatePath = "page"
 googleAnalytics = "UA-62976890-1"
+enableSearch = true
 
 [taxonomies]
   tag = "tags"
