@@ -41,3 +41,4 @@ Messaging
 Takeaways
 
 * design patterns for observability
+* Mark Seeman, Code that Fits in Your Head, calls Decorator pattern, the pattern for cross-cutting concerns
