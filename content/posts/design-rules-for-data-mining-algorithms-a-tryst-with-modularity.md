@@ -19,8 +19,16 @@ parameter to the subroutine itself. These software packages are not
 
 Modular software architectures are evolvable, easy to analyse and
 upgrade. In the book Design Rules \[Baldwin\]\_, the authors outline the
-benefits of modularity with six modular operators for modular designs -
-Splitting, Substitution, Augmenting, Excluding, Inversion, and Porting.
+benefits of modularity with the following six operators for modular designs:
+
+1. Splitting
+2. Substitution
+3. Augmenting
+4. Excluding
+5. Inversion
+6. Porting
+
+
 *Splitting* and *Substitution* are complementary operators which allow
 interconnected task to be split into independent tasks and evolve
 separately or replaced by a performant module. Similarly, *Augmenting*
@@ -45,36 +53,10 @@ easier to apply these to software design than others.
     where Computational Resources at hand come into picture. Massive
     datasets can change the game of the machine learning procedure.
 
-  ------------------------------------------------------------------------
-              CART        Backpropagat A Priori   Vector Space for Text
-                          ion                     Retrieval
-  ----------- ----------- ------------ ---------- ------------------------
-  **Task**    Classificat Regression   Rule       Retrieval of similar
-              ion                      Pattern    documents in a database
-              and                      Discovery  relative to a query
-              Regression                          
 
-  **Structure [Decision   [Neural      Associatio Vector of Term
-  **          Tree](http: Network](htt n          Occurrences
-              //scikit-le p://scikit-l Rules      
-              arn.org/sta earn.org/sta            
-              ble/modules ble/modules/            
-              /tree.html) neural_netwo            
-                          rks.html)               
-
-  **Score     Cross-Valid Squared      Support/Ac Angle between two
-  Function**  ated        Error        curacy     vectors
-              Loss                                
-              Function                            
-
-  **Search    Greedy      Gradient     Breadth-fi Various Techniques
-  Method**    search over Descent on   rst        
-              Structures  Parameters   with       
-                                       Pruning    
-
-  **Data      Unspecified Unspecified  Linear     Fast Indexing Techniques
-  Management                           Scans      
-  Technique**                                     
-  ------------------------------------------------------------------------
-
-
+| **Name**                               | **Task**                       | **Structure**             | **Score Function**           | **Search Method**              | **Data Management Techniques** |
+| -------------------------------------- | ------------------------------ | ------------------------- | ---------------------------- | ------------------------------ | ------------------------------ |
+| CART                                   | Classification and Regeression | Decision Tree             | Cross-Validted Loss Function | Greedy Search Over Structures  | Unspecified                    |
+| Backpropagation                        | Regression                     | Neural Network            | Squared Error                | Gradient Descent On Parameters | Unspecified                    |
+| A Priori                               | Rule Pattern Discovery         | Association Rules         | Support/Accuracy             | Breadth-first Search           | Linear Scans                   |
+| Vector Space for Information Retrieval | Retrieval of Similar Documents | Vector of Term Occurences | Angle Between Two Vectors    | Various Techniques             | Fast Indexing Techniques       |
