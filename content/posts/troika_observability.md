@@ -1,7 +1,7 @@
 ---
 title: "Logging, Tracing, and Metrics - The Troika of Observability"
 date: 2023-01-07
-draft: false
+draft: true
 description: ""
 ---
 * describe observability
