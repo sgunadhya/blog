@@ -94,7 +94,7 @@ The connections can be linked by referring to other cards using ["embed"](https:
 Notice that I have not added too much structure in all the pages. Notion provides this flexibility where I can add as little information as I want to set the ball rolling. The design can evolve as my workflow evolves.
 
 ## Question Index Card
-{{< tweet 636539481634418688 >}}
+{{< tweet user="grantdraws" id= 636539481634418688 >}}
 You will have questions in your research. One of the researches have all the outline headings framed as questions. When I created my template from the Questions Index Card, I kept the layout simple. I want this page to grow over time.
 
 {{< figure src="/images/QuestionIndexCard.png" class="mid">}}
