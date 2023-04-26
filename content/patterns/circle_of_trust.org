@@ -1,0 +1,54 @@
+---
+title: "Circle of Trust"
+date: 2023-04-25
+draft: false
+---
+
+* Name
+Circle of Trust
+* Referenced In
+"Security Patterns in Practice" by Eduardo B. Fernandez
+* Motivation
+* Structure
+{{< mermaid >}}
+%%{init: {'theme':'neutral'}}%%
+classDiagram
+class CircleOfTrust {
++name
++operationalAgreement
++businessAgreement
+}
+
+class ServiceProvider {
++Name
+}
+
+CircleOfTrust o-- ServiceProvider :members *
+ServiceProvider -- ServiceProvider :* trusts
+note "Invariant serviceProvider.trustees == serviceProvider.circeOfTrust.members"
+
+{{< /mermaid >}}
+# #+begin_src mermaid :file circle_of_trust.png
+# classDiagram
+# class CircleOfTrust {
+# +name
+# +operationalAgreement
+# +businessAgreement
+# }
+
+# class ServiceProvider {
+# +Name
+# }
+
+# CircleOfTrust o-- ServiceProvider :members *
+# ServiceProvider -- ServiceProvider :* trusts
+# note "Invariant serviceProvider.trustees == serviceProvider.circeOfTrust.members"
+
+# #+end_src
+
+#+RESULTS:
+
+
+* Known Uses
+
+- Paypal

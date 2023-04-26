@@ -1,0 +1,12 @@
+---
+title: "Authenticator"
+date: 2023-04-25
+draft: false
+---
+* Name
+* Referenced In
+"Security Patterns in Practice" by Eduardo B. Fernandez
+* Motivation
+* Structure
+* Dynamics
+* Known Uses
