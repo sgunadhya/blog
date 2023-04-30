@@ -1,0 +1,56 @@
+---
+title: "Identity Provider"
+date: 2023-04-25
+draft: false
+---
+* Name
+Identity Provider
+* Referenced In
+"Security Patterns in Practice" by Eduardo B. Fernandez
+* Motivation
+Every service implements its own way of managing identity might lead to inconsistencies.
+* Structure
+{{< mermaid >}}
+%%{init: {'theme':'neutral'}}%%
+classDiagram
+class Identity {
+ +Id
+}
+
+class IdentityProvider {
+  +Name
+}
+
+class SecurityDomain {
++Name
+}
+
+class Resource {
++Name
+}
+class Subject {
++Id
+}
+
+class Credential {
++Id
++Issuer
++IssuanceDate
++ExpirationDate
++IssuerSignature
+}
+
+Credential "*" --o Subject
+Subject "*" -- "*" SecurityDomain
+SecurityDomain "1" o-- "*" Resource
+Resource "1" -- "*" Credential : Consumes
+IdentityProvider "1" -- "*" Resource : Trusts
+Identity "*" -- "1" IdentityProvider : Manages
+IdentityProvider "1" -- "*" Credential : Issues
+
+
+
+{{< /mermaid >}}
+
+[[file:identity_pattern.png]]
+* Examples

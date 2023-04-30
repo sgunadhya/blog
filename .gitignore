@@ -13,3 +13,4 @@ public/
 .DS_Store
 .firebase/
 *.lock
+content/**/*.png
