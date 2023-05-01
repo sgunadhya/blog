@@ -3,10 +3,10 @@ author = "Sushant Srivastava"
 date = "2023-05-01"
 description = "Patterns and Pattern Sequences for System Design"
 draft = false
-keywords = ["patterns", "design"]
-tags = ["patterns", "design"]
-title = "Such Stuff as Systems Are Made On: Patterns and Sequences for System Design"
-topics = ["patterns", "design"]
+keywords = ["patterns", "design", "architecture"]
+tags = ["patterns", "design", "architecture"]
+title = "Such Stuff as Systems Are Made On: Patterns and Pattern-Sequences"
+topics = ["patterns", "design", "architecture"]
 type = "post"
 
 +++
@@ -58,7 +58,7 @@ implementing their solutions.
 
 ## Distributed Systems Design Patterns
 Reading technical papers on Systems by big tech companies give you an impression that the problems are unique to each of them. For example, Chubby, Zookeeper, and Etcd
-are systems design for starkly similar use cases but they differ in their implementations and constraints. [Patterns of Distributed Systems](https://martinfowler.com/articles/patterns-of-distributed-systems/ "Patterns of Distributed Systems")
+are systems designed for starkly similar use cases but they differ in their implementations and constraints. [Patterns of Distributed Systems](https://martinfowler.com/articles/patterns-of-distributed-systems/ "Patterns of Distributed Systems")
 is a collection of patterns that condenses patterns for implementing such distributed system primitives like Replication logs.
 
 The Application Developers rarely get an insight into the underpinnings of distributed system primitives like a config store, but knowing the primitives and options available give them
