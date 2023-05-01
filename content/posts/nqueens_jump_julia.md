@@ -77,7 +77,7 @@ spy(JuMP.value.(board))
 N-Queens puzzle can be formulated as a linear programming problem.
 In this class of problems we model the puzzle and constraints as 
 set of linear expressions. There are other ways of solving this problem,
-for example, using brute force method. Tere are many advantages of expressing
+for example, using brute force method. There are many advantages of expressing
 the problem in an abstract linear program.
 
 There are two styles of programming - Procedural and Declarative. In procedural
