@@ -8,5 +8,42 @@ draft: false
 "Security Patterns in Practice" by Eduardo B. Fernandez
 * Motivation
 * Structure
+{{< mermaid  >}}
+classDiagram
+class Subject {
++Id
+}
+
+class Authenticator {
++Name
+}
+
+class AuthenticationInformation {
++Name
+}
+
+class ProofOfIdentity {
++Name
+}
+
+ProofOfIdentity "*" --o "1" Subject
+ProofOfIdentity -- "1" Authenticator  : Creates
+Subject "*" -- "1" Authenticator : RequestAuthentication
+Authenticator "1" -- "1" AuthenticationInformation : Verify
+{{< /mermaid >}}
+
+
 * Dynamics
+{{< mermaid  >}}
+sequenceDiagram
+User->>Authenticator:login(user)
+Note over User,Authenticator: Authentication Protocol
+Authenticator->>AuthenticationInfo:Verify
+AuthenticationInfo-->>Authenticator:Verified
+Authenticator->>ProofOfIdentity:Create
+Authenticator-->>User:return(proofOfIdentity)
+{{</ mermaid  >}}
+
 * Known Uses
+- SSL Authentication Protocol
+- SAML
