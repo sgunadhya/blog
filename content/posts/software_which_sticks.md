@@ -15,7 +15,6 @@ type = "post"
 One of my main routines now a days is to lurk around the Notionso reddit, and find nuggets of wisdom for
 my own setup. I came across the post which I resonated with me.
 
-{{< reddit "https://www.reddit.com/r/NotionSo/comments/glkm7w/unpopular_opinion_this_community_is_going_the_way/" >}}
 
 I was on the same boat until some years ago. I invested in "fashion more than function". Until recently,
 when I figured out that I needed a system so that instead of thinking about being productive, I could actually be.
