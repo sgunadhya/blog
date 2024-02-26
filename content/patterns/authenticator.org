@@ -4,9 +4,11 @@ date: 2023-04-25
 draft: false
 ---
 * Name
+Authenticator
 * Referenced In
 "Security Patterns in Practice" by Eduardo B. Fernandez
 * Motivation
+Verify that the subject intending to access the system is who they claim to be.
 * Structure
 {{< mermaid  >}}
 classDiagram
