@@ -11,6 +11,8 @@ type = "post"
 
 +++
 
+{{< figure src="/images/DSC00084.webp" >}}
+
 There is no handbook for Software Engineering.
 
 Way back in 2006, when I started my development career, I was using the [Struts Web Framework](https://struts.apache.org/index.html "Struts Web Framework"). 
