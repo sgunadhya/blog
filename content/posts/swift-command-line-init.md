@@ -190,25 +190,3 @@ And, that's it! Now, that I have setup the project the way I like, I can start d
 
 Swift Package Manager is a wonderful tool that takes a getting used to. If you are like me, you
 might get confused between `module`, `target`, and `product`, here's its [proposal](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0146-package-manager-product-definitions.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
