@@ -32,7 +32,7 @@
 
 [[main]]
   name = "System Design"
-  pageRef = "system-design"
+  pageRef = "systemdesign"
   weight = 40
 
 # -- Footer Menu --
