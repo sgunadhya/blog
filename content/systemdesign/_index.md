@@ -1,6 +1,8 @@
 ---
 title: "System Design Components"
 description: "A collection of system design components with common issues, patterns, and solutions"
+cascade:
+    showReadingTime : false
 ---
 
 Welcome to the System Design Components documentation. This site contains tables of common issues, patterns, anti-patterns, and mitigation strategies for various system components.
