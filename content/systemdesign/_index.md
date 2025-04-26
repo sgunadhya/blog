@@ -1,6 +1,8 @@
 ---
 title: "System Design Components"
 description: "A collection of system design components with common issues, patterns, and solutions"
+showReadingTime: false
+showDateUpdated: false
 cascade:
     showReadingTime : false
 ---

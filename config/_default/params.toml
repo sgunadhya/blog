@@ -29,7 +29,7 @@ enableCodeCopy = false
   showRecent = false
 
 [article]
-  showDate = true
+  showDate = false
   showDateUpdated = false
   showAuthor = true
   showBreadcrumbs = true
@@ -51,7 +51,7 @@ enableCodeCopy = false
   showBreadcrumbs = true
   showSummary = false
   showTableOfContents = true
-  groupByYear = true
+  groupByYear = false
 
 [sitemap]
   excludedKinds = ["taxonomy", "term"]

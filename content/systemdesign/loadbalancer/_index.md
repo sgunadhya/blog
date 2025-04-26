@@ -105,40 +105,53 @@ Okay, let's break down how to implement the canonical solution patterns for the 
 
 Remember, load balancer configuration is typically declarative (YAML, text files) rather than procedural code like Java or Rust. However, understanding these concepts is crucial for building robust systems.
 
----
 
-## Scalable Load Balancing Pattern**
 
-* **Problem Solved:** Throughput saturation (Packet Processing, Bandwidth, CPU limits on the LB itself).
-* **Core Idea:** Don't rely on a single, fixed-size load balancer. Distribute the load balancing function itself horizontally and ensure ample capacity.
+## Scalable Load Balancing Pattern
 
-* **Implementation:**
+### Problem Solved
+Throughput saturation (Packet Processing, Bandwidth, CPU limits on the LB itself).
+### Core Idea
+Don't rely on a single, fixed-size load balancer. Distribute the load balancing function itself horizontally and ensure ample capacity.
 
-    * **Cloud Providers (AWS ELB/ALB/NLB, Azure Load Balancer, GCP Cloud Load Balancing):**
-        * **How:** These services are *designed* for this pattern. They are managed services that automatically scale their underlying capacity based on traffic demand. You don't manage individual LB instances.
-        * **Configuration/APIs:**
-            * **Choose the Right Type:**
-                * AWS: Use Network Load Balancer (NLB) for highest network throughput (millions of PPS), TCP/TLS traffic, and static IPs. Use Application Load Balancer (ALB) for HTTP/S routing, path-based routing, WAF integration, etc. (scales very well but has different capacity characteristics than NLB).
-                * Azure: Standard Load Balancer scales automatically. Choose based on L4 vs L7 needs (Application Gateway for L7).
-                * GCP: Choose appropriate type (e.g., Global External HTTP(S) LB, Regional Network LB). They scale managedly.
-            * **Backend Autoscaling:** Ensure your backend instances (EC2, VMs, Containers, Functions) are managed by an Autoscaling Group (ASG) or equivalent (Managed Instance Group, VM Scale Set). The load balancer automatically adds/removes targets as the group scales.
-            * **Monitoring:** Monitor the load balancer's own metrics (e.g., AWS `ConsumedLCUs` for ALB, `ActiveFlowCount` for NLB, Azure `SNAT Connection Count`, GCP LB metrics) to understand usage, though scaling is generally automatic up to service limits. Request limit increases if needed.
-            * **Headroom:** Configure backend ASG policies to scale *proactively* based on metrics like CPU, request count per instance, or queue depth, ensuring there's always spare backend capacity *before* the load balancer needs to throttle.
+### **Implementation**
 
-    * **Self-Managed (NGINX, HAProxy):**
-        * **How:** You need to run *multiple* instances of NGINX/HAProxy and distribute traffic *to* them.
-        * **Configuration/APIs:**
-            * **Distribution Layer:**
-                * **DNS Round Robin:** Simplest but uneven distribution and slow failover.
-                * **Cloud Network LB:** Place an AWS NLB, Azure Standard LB (L4), or GCP Network LB *in front* of your NGINX/HAProxy instances. The cloud LB handles scaling and distribution to your LB tier.
-                * **BGP/ECMP (On-Prem/Advanced):** Use routing protocols to advertise the same IP from multiple LB instances, letting routers distribute traffic (requires network team involvement).
-            * **High Availability (HA):** Use tools like `keepalived` (VRRP) for active/passive or active/active setups if not using a higher-level distribution method like a cloud NLB.
-            * **Instance Scaling:** Run your NGINX/HAProxy instances within an Autoscaling Group (if in the cloud) so the LB tier itself can scale.
-            * **Configuration Example (Conceptual - using Cloud NLB):**
-                ```
-                [ Internet ] -> [ AWS NLB / Azure LB / GCP Network LB ] -> [ ASG of NGINX/HAProxy Instances ] -> [ Backend App Servers ]
-                ```
-            * **NGINX/HAProxy Config:** The individual configs don't change much for *this* pattern, it's about deploying *multiple copies* effectively.
+#### Cloud Providers 
+
+(AWS ELB/ALB/NLB, Azure Load Balancer, GCP Cloud Load Balancing)
+
+##### How
+
+These services are *designed* for this pattern. They are managed services that automatically scale their underlying capacity based on traffic demand. You don't manage individual LB instances.
+
+* **Configuration/APIs:**
+  * **Choose the Right Type:**
+    * **AWS**: Use Network Load Balancer (NLB) for highest network throughput (millions of PPS), TCP/TLS traffic, and static IPs. Use Application Load Balancer (ALB) for HTTP/S routing, path-based routing, WAF integration, etc. (scales very well but has different capacity characteristics than NLB).
+    * Azure: Standard Load Balancer scales automatically. Choose based on L4 vs L7 needs (Application Gateway for L7).
+    * GCP: Choose appropriate type (e.g., Global External HTTP(S) LB, Regional Network LB). They scale managedly.
+  * **Backend Autoscaling:** Ensure your backend instances (EC2, VMs, Containers, Functions) are managed by an Autoscaling Group (ASG) or equivalent (Managed Instance Group, VM Scale Set). The load balancer automatically adds/removes targets as the group scales.
+  * **Monitoring:** Monitor the load balancer's own metrics (e.g., AWS `ConsumedLCUs` for ALB, `ActiveFlowCount` for NLB, Azure `SNAT Connection Count`, GCP LB metrics) to understand usage, though scaling is generally automatic up to service limits. Request limit increases if needed.
+  * **Headroom:** Configure backend ASG policies to scale *proactively* based on metrics like CPU, request count per instance, or queue depth, ensuring there's always spare backend capacity *before* the load balancer needs to throttle.
+
+#### Self-Managed 
+(NGINX, HAProxy)
+* **How:** You need to run *multiple* instances of NGINX/HAProxy and distribute traffic *to* them.
+* **Configuration/APIs:**
+    * **Distribution Layer:**
+        * **DNS Round Robin:** Simplest but uneven distribution and slow failover.
+        * **Cloud Network LB:** Place an AWS NLB, Azure Standard LB (L4), or GCP Network LB *in front* of your NGINX/HAProxy instances. The cloud LB handles scaling and distribution to your LB tier.
+        * **BGP/ECMP (On-Prem/Advanced):** Use routing protocols to advertise the same IP from multiple LB instances, letting routers distribute traffic (requires network team involvement).
+    * **High Availability (HA):** Use tools like `keepalived` (VRRP) for active/passive or active/active setups if not using a higher-level distribution method like a cloud NLB.
+    * **Instance Scaling:** Run your NGINX/HAProxy instances within an Autoscaling Group (if in the cloud) so the LB tier itself can scale.
+    * **Configuration Example (Conceptual - using Cloud NLB):**
+
+    ```mermaid
+flowchart LR
+    Internet["Internet"] --> CloudLB["AWS NLB / Azure LB / GCP Network LB"]
+    CloudLB --> NginxLayer["ASG of NGINX/HAProxy Instances"]
+    NginxLayer --> BackendServers["Backend App Servers"]    ```
+        
+    * **NGINX/HAProxy Config:** The individual configs don't change much for *this* pattern, it's about deploying *multiple copies* effectively.
 
 ---
 
